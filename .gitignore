@@ -1,13 +1,13 @@
-Library/**
-library/**
-Temp/**
-temp/**
-Obj/**
-obj/**
-Build/**
-build/**
-Distribution/**
-distribution/**
+/Library/*
+/library/*
+/Temp/*
+/temp/*
+/Obj/*
+/obj/*
+/Build/*
+/build/*
+/Distribution/*
+/distribution/*
 
 
 
