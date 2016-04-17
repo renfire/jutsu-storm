@@ -3,6 +3,8 @@ using System.Collections;
 
 public class AutoZoom : MonoBehaviour {
 
+    public bool zoomIn = false;
+
     private float maxZ;
     private float minZ;
 
@@ -22,9 +24,6 @@ public class AutoZoom : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        float move = Input.GetAxis("Vertical");
-        bool zoomIn = move != 0;
-
         Camera _camera = GetComponent<Camera>();
         Vector3 cameraPosition = _camera.transform.position;
 
@@ -35,6 +34,5 @@ public class AutoZoom : MonoBehaviour {
         else if (!zoomIn && cameraPosition.y < maxY) cameraPosition.y += 0.01f;
 
         _camera.transform.position = cameraPosition;
-        print(cameraPosition);
 	}
 }

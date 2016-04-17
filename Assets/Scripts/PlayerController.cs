@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D rb;
     bool facingRight = true;
+    public Camera _camera;
 
     void Awake()
     {
@@ -20,6 +21,16 @@ public class PlayerController : MonoBehaviour {
         Vector2 movement = new Vector2(moveHorizontal, 0.0f);
 
         rb.velocity = (movement);            
+    }
+
+    void OnTriggerEnter2D()
+    {
+       _camera.GetComponent<AutoZoom>().zoomIn = true;
+    }
+
+    void OnTriggerExit2D()
+    {
+        _camera.GetComponent<AutoZoom>().zoomIn = false;
     }
 
     void Flip()
