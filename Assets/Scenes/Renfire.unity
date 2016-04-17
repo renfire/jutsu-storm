@@ -93,6 +93,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 131731669}
+  - 61: {fileID: 131731670}
+  - 61: {fileID: 131731671}
   m_Layer: 0
   m_Name: Tiles
   m_TagString: Untagged
@@ -118,6 +120,34 @@ Transform:
   - {fileID: 219715376}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!61 &131731670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131731668}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.25}
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1}
+--- !u!61 &131731671
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131731668}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -2, y: 0.75}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!1 &219715375
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,7 +158,6 @@ GameObject:
   - 224: {fileID: 219715376}
   - 33: {fileID: 219715379}
   - 23: {fileID: 219715377}
-  - 61: {fileID: 219715378}
   m_Layer: 0
   m_Name: Floor (5)
   m_TagString: Untagged
@@ -179,20 +208,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!61 &219715378
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 219715375}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
 --- !u!33 &219715379
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -210,7 +225,6 @@ GameObject:
   - 224: {fileID: 531377268}
   - 33: {fileID: 531377267}
   - 23: {fileID: 531377265}
-  - 61: {fileID: 531377266}
   m_Layer: 0
   m_Name: Floor (2)
   m_TagString: Untagged
@@ -244,20 +258,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!61 &531377266
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 531377264}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
 --- !u!33 &531377267
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -451,7 +451,8 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6158750, guid: 77e3d064233cc614f8e648f34dada14f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 77e3d064233cc614f8e648f34dada14f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1264674209
@@ -464,7 +465,6 @@ GameObject:
   - 224: {fileID: 1264674213}
   - 33: {fileID: 1264674212}
   - 23: {fileID: 1264674210}
-  - 61: {fileID: 1264674211}
   m_Layer: 0
   m_Name: Floor (4)
   m_TagString: Untagged
@@ -498,20 +498,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!61 &1264674211
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1264674209}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
 --- !u!33 &1264674212
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -632,9 +618,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.45}
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 1}
+  m_Size: {x: 0.25, y: 0.1}
 --- !u!50 &1687871719
 Rigidbody2D:
   serializedVersion: 2
@@ -673,7 +659,6 @@ GameObject:
   - 224: {fileID: 1695322633}
   - 33: {fileID: 1695322632}
   - 23: {fileID: 1695322630}
-  - 61: {fileID: 1695322631}
   m_Layer: 0
   m_Name: Floor (3)
   m_TagString: Untagged
@@ -707,20 +692,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!61 &1695322631
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1695322629}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
 --- !u!33 &1695322632
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -890,6 +861,7 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6186342, guid: 7899a26066c4ee041a8a7d805ab6dc4a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7899a26066c4ee041a8a7d805ab6dc4a, type: 2}
   m_IsPrefabParent: 0
