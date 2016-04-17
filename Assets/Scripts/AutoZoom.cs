@@ -4,6 +4,8 @@ using System.Collections;
 public class AutoZoom : MonoBehaviour {
 
     public bool zoomIn = false;
+    public float zoomInDelta = 0.02f;
+    public float zoomOutDelta = 0.02f;
 
     private float maxZ;
     private float minZ;
@@ -27,11 +29,11 @@ public class AutoZoom : MonoBehaviour {
         Camera _camera = GetComponent<Camera>();
         Vector3 cameraPosition = _camera.transform.position;
 
-        if (zoomIn && cameraPosition.z < maxZ) cameraPosition.z += 0.01f;
-        else if (!zoomIn && cameraPosition.z > minZ) cameraPosition.z += -0.01f;
+        if (zoomIn && cameraPosition.z < maxZ) cameraPosition.z += zoomInDelta;
+        else if (!zoomIn && cameraPosition.z > minZ) cameraPosition.z += -zoomOutDelta;
 
-        if (zoomIn && cameraPosition.y > minY) cameraPosition.y += -0.01f;
-        else if (!zoomIn && cameraPosition.y < maxY) cameraPosition.y += 0.01f;
+        if (zoomIn && cameraPosition.y > minY) cameraPosition.y += -zoomInDelta;
+        else if (!zoomIn && cameraPosition.y < maxY) cameraPosition.y += zoomOutDelta;
 
         _camera.transform.position = cameraPosition;
 	}
