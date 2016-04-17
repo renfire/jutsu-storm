@@ -1,9 +1,226 @@
 fileFormatVersion: 2
 guid: 0096486a206c5ca41a90b24f96e5f6e6
-timeCreated: 1460840571
+timeCreated: 1460876079
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SNES_MK1_sub1_0
+    21300002: SNES_MK1_sub1_1
+    21300004: SNES_MK1_sub1_2
+    21300006: SNES_MK1_sub1_3
+    21300008: SNES_MK1_sub1_4
+    21300010: SNES_MK1_sub1_5
+    21300012: SNES_MK1_sub1_6
+    21300014: SNES_MK1_sub1_7
+    21300016: SNES_MK1_sub1_8
+    21300018: SNES_MK1_sub1_9
+    21300020: SNES_MK1_sub1_10
+    21300022: SNES_MK1_sub1_11
+    21300024: SNES_MK1_sub1_12
+    21300026: SNES_MK1_sub1_13
+    21300028: SNES_MK1_sub1_14
+    21300030: SNES_MK1_sub1_15
+    21300032: SNES_MK1_sub1_16
+    21300034: SNES_MK1_sub1_17
+    21300036: SNES_MK1_sub1_18
+    21300038: SNES_MK1_sub1_19
+    21300040: SNES_MK1_sub1_20
+    21300042: SNES_MK1_sub1_21
+    21300044: SNES_MK1_sub1_22
+    21300046: SNES_MK1_sub1_23
+    21300048: SNES_MK1_sub1_24
+    21300050: SNES_MK1_sub1_25
+    21300052: SNES_MK1_sub1_26
+    21300054: SNES_MK1_sub1_27
+    21300056: SNES_MK1_sub1_28
+    21300058: SNES_MK1_sub1_29
+    21300060: SNES_MK1_sub1_30
+    21300062: SNES_MK1_sub1_31
+    21300064: SNES_MK1_sub1_32
+    21300066: SNES_MK1_sub1_33
+    21300068: SNES_MK1_sub1_34
+    21300070: SNES_MK1_sub1_35
+    21300072: SNES_MK1_sub1_36
+    21300074: SNES_MK1_sub1_37
+    21300076: SNES_MK1_sub1_38
+    21300078: SNES_MK1_sub1_39
+    21300080: SNES_MK1_sub1_40
+    21300082: SNES_MK1_sub1_41
+    21300084: SNES_MK1_sub1_42
+    21300086: SNES_MK1_sub1_43
+    21300088: SNES_MK1_sub1_44
+    21300090: SNES_MK1_sub1_45
+    21300092: SNES_MK1_sub1_46
+    21300094: SNES_MK1_sub1_47
+    21300096: SNES_MK1_sub1_48
+    21300098: SNES_MK1_sub1_49
+    21300100: SNES_MK1_sub1_50
+    21300102: SNES_MK1_sub1_51
+    21300104: SNES_MK1_sub1_52
+    21300106: SNES_MK1_sub1_53
+    21300108: SNES_MK1_sub1_54
+    21300110: SNES_MK1_sub1_55
+    21300112: SNES_MK1_sub1_56
+    21300114: SNES_MK1_sub1_57
+    21300116: SNES_MK1_sub1_58
+    21300118: SNES_MK1_sub1_59
+    21300120: SNES_MK1_sub1_60
+    21300122: SNES_MK1_sub1_61
+    21300124: SNES_MK1_sub1_62
+    21300126: SNES_MK1_sub1_63
+    21300128: SNES_MK1_sub1_64
+    21300130: SNES_MK1_sub1_65
+    21300132: SNES_MK1_sub1_66
+    21300134: SNES_MK1_sub1_67
+    21300136: SNES_MK1_sub1_68
+    21300138: SNES_MK1_sub1_69
+    21300140: SNES_MK1_sub1_70
+    21300142: SNES_MK1_sub1_71
+    21300144: SNES_MK1_sub1_72
+    21300146: SNES_MK1_sub1_73
+    21300148: SNES_MK1_sub1_74
+    21300150: SNES_MK1_sub1_75
+    21300152: SNES_MK1_sub1_76
+    21300154: SNES_MK1_sub1_77
+    21300156: SNES_MK1_sub1_78
+    21300158: SNES_MK1_sub1_79
+    21300160: SNES_MK1_sub1_80
+    21300162: SNES_MK1_sub1_81
+    21300164: SNES_MK1_sub1_82
+    21300166: SNES_MK1_sub1_83
+    21300168: SNES_MK1_sub1_84
+    21300170: SNES_MK1_sub1_85
+    21300172: SNES_MK1_sub1_86
+    21300174: SNES_MK1_sub1_87
+    21300176: SNES_MK1_sub1_88
+    21300178: SNES_MK1_sub1_89
+    21300180: SNES_MK1_sub1_90
+    21300182: SNES_MK1_sub1_91
+    21300184: SNES_MK1_sub1_92
+    21300186: SNES_MK1_sub1_93
+    21300188: SNES_MK1_sub1_94
+    21300190: SNES_MK1_sub1_95
+    21300192: SNES_MK1_sub1_96
+    21300194: SNES_MK1_sub1_97
+    21300196: SNES_MK1_sub1_98
+    21300198: SNES_MK1_sub1_99
+    21300200: SNES_MK1_sub1_100
+    21300202: SNES_MK1_sub1_101
+    21300204: SNES_MK1_sub1_102
+    21300206: SNES_MK1_sub1_103
+    21300208: SNES_MK1_sub1_104
+    21300210: SNES_MK1_sub1_105
+    21300212: SNES_MK1_sub1_106
+    21300214: SNES_MK1_sub1_107
+    21300216: SNES_MK1_sub1_108
+    21300218: SNES_MK1_sub1_109
+    21300220: SNES_MK1_sub1_110
+    21300222: SNES_MK1_sub1_111
+    21300224: SNES_MK1_sub1_112
+    21300226: SNES_MK1_sub1_113
+    21300228: SNES_MK1_sub1_114
+    21300230: SNES_MK1_sub1_115
+    21300232: SNES_MK1_sub1_116
+    21300234: SNES_MK1_sub1_117
+    21300236: SNES_MK1_sub1_118
+    21300238: SNES_MK1_sub1_119
+    21300240: SNES_MK1_sub1_120
+    21300242: SNES_MK1_sub1_121
+    21300244: SNES_MK1_sub1_122
+    21300246: SNES_MK1_sub1_123
+    21300248: SNES_MK1_sub1_124
+    21300250: SNES_MK1_sub1_125
+    21300252: SNES_MK1_sub1_126
+    21300254: SNES_MK1_sub1_127
+    21300256: SNES_MK1_sub1_128
+    21300258: SNES_MK1_sub1_129
+    21300260: SNES_MK1_sub1_130
+    21300262: SNES_MK1_sub1_131
+    21300264: SNES_MK1_sub1_132
+    21300266: SNES_MK1_sub1_133
+    21300268: SNES_MK1_sub1_134
+    21300270: SNES_MK1_sub1_135
+    21300272: SNES_MK1_sub1_136
+    21300274: SNES_MK1_sub1_137
+    21300276: SNES_MK1_sub1_138
+    21300278: SNES_MK1_sub1_139
+    21300280: SNES_MK1_sub1_140
+    21300282: SNES_MK1_sub1_141
+    21300284: SNES_MK1_sub1_142
+    21300286: SNES_MK1_sub1_143
+    21300288: SNES_MK1_sub1_144
+    21300290: SNES_MK1_sub1_145
+    21300292: SNES_MK1_sub1_146
+    21300294: SNES_MK1_sub1_147
+    21300296: SNES_MK1_sub1_148
+    21300298: SNES_MK1_sub1_149
+    21300300: SNES_MK1_sub1_150
+    21300302: SNES_MK1_sub1_151
+    21300304: SNES_MK1_sub1_152
+    21300306: SNES_MK1_sub1_153
+    21300308: SNES_MK1_sub1_154
+    21300310: SNES_MK1_sub1_155
+    21300312: SNES_MK1_sub1_156
+    21300314: SNES_MK1_sub1_157
+    21300316: SNES_MK1_sub1_158
+    21300318: SNES_MK1_sub1_159
+    21300320: SNES_MK1_sub1_160
+    21300322: SNES_MK1_sub1_161
+    21300324: SNES_MK1_sub1_162
+    21300326: SNES_MK1_sub1_163
+    21300328: SNES_MK1_sub1_164
+    21300330: SNES_MK1_sub1_165
+    21300332: SNES_MK1_sub1_166
+    21300334: SNES_MK1_sub1_167
+    21300336: SNES_MK1_sub1_168
+    21300338: SNES_MK1_sub1_169
+    21300340: SNES_MK1_sub1_170
+    21300342: SNES_MK1_sub1_171
+    21300344: SNES_MK1_sub1_172
+    21300346: SNES_MK1_sub1_173
+    21300348: SNES_MK1_sub1_174
+    21300350: SNES_MK1_sub1_175
+    21300352: SNES_MK1_sub1_176
+    21300354: SNES_MK1_sub1_177
+    21300356: SNES_MK1_sub1_178
+    21300358: SNES_MK1_sub1_179
+    21300360: SNES_MK1_sub1_180
+    21300362: SNES_MK1_sub1_181
+    21300364: SNES_MK1_sub1_182
+    21300366: SNES_MK1_sub1_183
+    21300368: SNES_MK1_sub1_184
+    21300370: SNES_MK1_sub1_185
+    21300372: SNES_MK1_sub1_186
+    21300374: SNES_MK1_sub1_187
+    21300376: SNES_MK1_sub1_188
+    21300378: SNES_MK1_sub1_189
+    21300380: SNES_MK1_sub1_190
+    21300382: SNES_MK1_sub1_191
+    21300384: SNES_MK1_sub1_192
+    21300386: SNES_MK1_sub1_193
+    21300388: SNES_MK1_sub1_194
+    21300390: SNES_MK1_sub1_195
+    21300392: SNES_MK1_sub1_196
+    21300394: SNES_MK1_sub1_197
+    21300396: SNES_MK1_sub1_198
+    21300398: SNES_MK1_sub1_199
+    21300400: SNES_MK1_sub1_200
+    21300402: SNES_MK1_sub1_201
+    21300404: SNES_MK1_sub1_202
+    21300406: SNES_MK1_sub1_203
+    21300408: SNES_MK1_sub1_204
+    21300410: SNES_MK1_sub1_205
+    21300412: SNES_MK1_sub1_206
+    21300414: SNES_MK1_sub1_207
+    21300416: SNES_MK1_sub1_208
+    21300418: SNES_MK1_sub1_209
+    21300420: SNES_MK1_sub1_210
+    21300422: SNES_MK1_sub1_211
+    21300424: SNES_MK1_sub1_212
+    21300426: SNES_MK1_sub1_213
+    21300428: SNES_MK1_sub1_214
+    21300430: SNES_MK1_sub1_215
+    21300432: SNES_MK1_sub1_216
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +247,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +255,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +266,4000 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: SNES_MK1_sub1_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1279
+        width: 42
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -50}
+        - {x: 21, y: 29}
+        - {x: 14, y: 50}
+        - {x: -8, y: 50}
+        - {x: -21, y: 35}
+        - {x: -21, y: 25}
+        - {x: -19, y: 20}
+        - {x: -21, y: -17}
+        - {x: -21, y: -50}
+        - {x: -13, y: -50}
+        - {x: -12, y: -49}
+        - {x: -10, y: -46}
+        - {x: 6, y: -50}
+    - name: SNES_MK1_sub1_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1279
+        width: 42
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -50}
+        - {x: 21, y: 29}
+        - {x: 14, y: 50}
+        - {x: -8, y: 50}
+        - {x: -21, y: 35}
+        - {x: -21, y: 25}
+        - {x: -19, y: 20}
+        - {x: -21, y: -17}
+        - {x: -21, y: -50}
+        - {x: -13, y: -50}
+        - {x: -12, y: -49}
+        - {x: -10, y: -46}
+        - {x: 6, y: -50}
+    - name: SNES_MK1_sub1_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1279
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 50}
+        - {x: -6, y: 50}
+        - {x: -20, y: 36}
+        - {x: -20, y: -50}
+        - {x: 20, y: -50}
+        - {x: 20, y: 30}
+        - {x: 19, y: 33}
+    - name: SNES_MK1_sub1_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1279
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 50}
+        - {x: -20, y: 37}
+        - {x: -20, y: -50}
+        - {x: 20, y: -50}
+        - {x: 20, y: 15}
+        - {x: 15, y: 38}
+        - {x: 8, y: 50}
+    - name: SNES_MK1_sub1_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1279
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 13}
+        - {x: 14, y: 34}
+        - {x: 11, y: 36}
+        - {x: 8, y: 48}
+        - {x: 6, y: 50}
+        - {x: -10, y: 50}
+        - {x: -20, y: 38}
+        - {x: -20, y: -50}
+        - {x: -11, y: -50}
+        - {x: -8, y: -46}
+        - {x: 1, y: -50}
+        - {x: 20, y: -50}
+    - name: SNES_MK1_sub1_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1279
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -17}
+        - {x: 15.5, y: 34}
+        - {x: 11.5, y: 49}
+        - {x: 8.5, y: 50}
+        - {x: -11.5, y: 50}
+        - {x: -20.5, y: 37}
+        - {x: -20.5, y: -50}
+        - {x: -10.5, y: -50}
+        - {x: -7.5, y: -46}
+        - {x: 7.5, y: -50}
+        - {x: 20.5, y: -50}
+    - name: SNES_MK1_sub1_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1279
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 38}
+        - {x: 7.5, y: 50}
+        - {x: -20.5, y: 50}
+        - {x: -20.5, y: -50}
+        - {x: -10.5, y: -50}
+        - {x: -7.5, y: -46}
+        - {x: 1.5, y: -50}
+        - {x: 20.5, y: -50}
+    - name: SNES_MK1_sub1_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1279
+        width: 42
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 49.5}
+        - {x: -9, y: 49.5}
+        - {x: -21, y: 37.5}
+        - {x: -21, y: -49.5}
+        - {x: 21, y: -49.5}
+        - {x: 21, y: -15.5}
+        - {x: 17, y: 32.5}
+    - name: SNES_MK1_sub1_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1279
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 38}
+        - {x: 7.5, y: 50}
+        - {x: -20.5, y: 50}
+        - {x: -20.5, y: -50}
+        - {x: -10.5, y: -50}
+        - {x: -7.5, y: -46}
+        - {x: 1.5, y: -50}
+        - {x: 20.5, y: -50}
+    - name: SNES_MK1_sub1_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1279
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -17}
+        - {x: 15.5, y: 34}
+        - {x: 11.5, y: 49}
+        - {x: 8.5, y: 50}
+        - {x: -11.5, y: 50}
+        - {x: -20.5, y: 37}
+        - {x: -20.5, y: -50}
+        - {x: -10.5, y: -50}
+        - {x: -7.5, y: -46}
+        - {x: 7.5, y: -50}
+        - {x: 20.5, y: -50}
+    - name: SNES_MK1_sub1_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1279
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 13}
+        - {x: 14, y: 34}
+        - {x: 11, y: 36}
+        - {x: 8, y: 48}
+        - {x: 6, y: 50}
+        - {x: -10, y: 50}
+        - {x: -20, y: 38}
+        - {x: -20, y: -50}
+        - {x: -11, y: -50}
+        - {x: -8, y: -46}
+        - {x: 1, y: -50}
+        - {x: 20, y: -50}
+    - name: SNES_MK1_sub1_11
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1279
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 50}
+        - {x: -20, y: 37}
+        - {x: -20, y: -50}
+        - {x: 20, y: -50}
+        - {x: 20, y: 15}
+        - {x: 15, y: 38}
+        - {x: 8, y: 50}
+    - name: SNES_MK1_sub1_12
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1279
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 50}
+        - {x: -6, y: 50}
+        - {x: -20, y: 36}
+        - {x: -20, y: -50}
+        - {x: 20, y: -50}
+        - {x: 20, y: 30}
+        - {x: 19, y: 33}
+    - name: SNES_MK1_sub1_13
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1279
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 50}
+        - {x: -13, y: 50}
+        - {x: -22, y: 36}
+        - {x: -22, y: -50}
+        - {x: 22, y: -50}
+        - {x: 22, y: -9}
+        - {x: 17, y: 40}
+    - name: SNES_MK1_sub1_14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1279
+        width: 43
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 41}
+        - {x: 16.5, y: 50}
+        - {x: -8.5, y: 50}
+        - {x: -17.5, y: 45}
+        - {x: -21.5, y: 37}
+        - {x: -21.5, y: -50}
+        - {x: -12.5, y: -50}
+        - {x: -8.5, y: -46}
+        - {x: 7.5, y: -50}
+        - {x: 21.5, y: -50}
+    - name: SNES_MK1_sub1_15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1279
+        width: 44
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 50.5}
+        - {x: -21, y: 34.5}
+        - {x: -22, y: 14.5}
+        - {x: -22, y: -50.5}
+        - {x: 22, y: -50.5}
+        - {x: 22, y: 34.5}
+        - {x: 12, y: 50.5}
+    - name: SNES_MK1_sub1_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1279
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 40}
+        - {x: 15.5, y: 50}
+        - {x: -3.5, y: 50}
+        - {x: -23.5, y: 24}
+        - {x: -23.5, y: -50}
+        - {x: 23.5, y: -50}
+    - name: SNES_MK1_sub1_17
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1279
+        width: 46
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 50.5}
+        - {x: -23, y: 29.5}
+        - {x: -23, y: -50.5}
+        - {x: 23, y: -50.5}
+        - {x: 23, y: 31.5}
+        - {x: 8, y: 50.5}
+    - name: SNES_MK1_sub1_18
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1279
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -50}
+        - {x: 19.5, y: 50}
+        - {x: -18.5, y: 50}
+        - {x: -19.5, y: 47}
+        - {x: -19.5, y: -50}
+        - {x: -11.5, y: -50}
+        - {x: -9.5, y: -49}
+        - {x: -8.5, y: -46}
+        - {x: 7.5, y: -50}
+    - name: SNES_MK1_sub1_19
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1279
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 50}
+        - {x: -19.5, y: 50}
+        - {x: -19.5, y: -50}
+        - {x: 19.5, y: -50}
+        - {x: 19.5, y: -14}
+        - {x: 15.5, y: 29}
+    - name: SNES_MK1_sub1_20
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1279
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 44.5}
+        - {x: -3.5, y: 42.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -44.5}
+        - {x: 22.5, y: -44.5}
+        - {x: 22.5, y: 28.5}
+        - {x: 11.5, y: 44.5}
+    - name: SNES_MK1_sub1_21
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1279
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 32.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -32.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 22.5, y: 32.5}
+    - name: SNES_MK1_sub1_22
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1279
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -8.5}
+        - {x: 5, y: -21.5}
+        - {x: 7, y: -24.5}
+        - {x: 22, y: -24.5}
+        - {x: 22, y: 10.5}
+        - {x: 21, y: 20.5}
+        - {x: 14, y: 24.5}
+        - {x: -14, y: 24.5}
+        - {x: -22, y: 14.5}
+        - {x: -22, y: -24.5}
+        - {x: -13, y: -24.5}
+        - {x: -9, y: -20.5}
+        - {x: 3, y: -16.5}
+        - {x: 6, y: -13.5}
+    - name: SNES_MK1_sub1_23
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1279
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 34.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -20.5, y: -34.5}
+        - {x: 20.5, y: -34.5}
+        - {x: 20.5, y: 33.5}
+        - {x: 17.5, y: 34.5}
+    - name: SNES_MK1_sub1_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1149
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -4}
+        - {x: 13, y: -4}
+        - {x: 12, y: 11}
+        - {x: 12, y: 9}
+        - {x: 18, y: -2}
+        - {x: 24, y: -2}
+        - {x: 24, y: 16}
+        - {x: 18, y: 38}
+        - {x: 11, y: 49}
+        - {x: -4, y: 49}
+        - {x: -7, y: 48}
+        - {x: -18, y: 30}
+        - {x: -18, y: 25}
+        - {x: -16, y: 19}
+        - {x: -24, y: -35}
+        - {x: -24, y: -49}
+        - {x: 24, y: -49}
+    - name: SNES_MK1_sub1_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1149
+        width: 40
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 49.5}
+        - {x: -20, y: 36.5}
+        - {x: -20, y: -49.5}
+        - {x: 20, y: -49.5}
+        - {x: 20, y: 49.5}
+    - name: SNES_MK1_sub1_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1149
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 49}
+        - {x: -9, y: 49}
+        - {x: -20, y: 37}
+        - {x: -20, y: 11}
+        - {x: -15, y: -48}
+        - {x: -10, y: -49}
+        - {x: 11, y: -49}
+        - {x: 20, y: -11}
+        - {x: 20, y: 21}
+        - {x: 15, y: 34}
+    - name: SNES_MK1_sub1_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1149
+        width: 41
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 48.5}
+        - {x: -20.5, y: 37.5}
+        - {x: -20.5, y: -16.5}
+        - {x: -16.5, y: -44.5}
+        - {x: -11.5, y: -48.5}
+        - {x: 20.5, y: -48.5}
+        - {x: 20.5, y: 21.5}
+        - {x: 9.5, y: 48.5}
+    - name: SNES_MK1_sub1_28
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1149
+        width: 40
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -49.5}
+        - {x: 20, y: -49.5}
+        - {x: 20, y: 42.5}
+        - {x: 15, y: 49.5}
+        - {x: -11, y: 49.5}
+        - {x: -20, y: 42.5}
+    - name: SNES_MK1_sub1_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1149
+        width: 40
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -49.5}
+        - {x: 10, y: -49.5}
+        - {x: 20, y: -31.5}
+        - {x: 20, y: 33.5}
+        - {x: 13, y: 49.5}
+        - {x: -14, y: 49.5}
+        - {x: -20, y: 42.5}
+    - name: SNES_MK1_sub1_30
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1149
+        width: 41
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 49.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -20.5, y: 6.5}
+        - {x: -9.5, y: -48.5}
+        - {x: -6.5, y: -49.5}
+        - {x: 20.5, y: -49.5}
+        - {x: 20.5, y: 49.5}
+    - name: SNES_MK1_sub1_31
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1149
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 49}
+        - {x: -14, y: 48}
+        - {x: -24, y: 37}
+        - {x: -24, y: -21}
+        - {x: -21, y: -49}
+        - {x: 24, y: -49}
+        - {x: 24, y: 29}
+        - {x: 5, y: 49}
+    - name: SNES_MK1_sub1_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1149
+        width: 45
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 41.5}
+        - {x: 9.5, y: 48.5}
+        - {x: -19.5, y: 48.5}
+        - {x: -22.5, y: 40.5}
+        - {x: -22.5, y: -43.5}
+        - {x: -21.5, y: -48.5}
+        - {x: 17.5, y: -48.5}
+        - {x: 22.5, y: -47.5}
+        - {x: 22.5, y: 9.5}
+    - name: SNES_MK1_sub1_33
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1149
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -36.5}
+        - {x: 13.5, y: -36.5}
+        - {x: 21.5, y: -5.5}
+        - {x: 21.5, y: 34.5}
+        - {x: 19.5, y: 36.5}
+        - {x: -15.5, y: 36.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -21.5, y: -13.5}
+        - {x: -14.5, y: -35.5}
+        - {x: -12.5, y: -36.5}
+        - {x: -3.5, y: -36.5}
+        - {x: -2.5, y: -33.5}
+        - {x: -1.5, y: -19.5}
+        - {x: -1.5, y: -22.5}
+    - name: SNES_MK1_sub1_34
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1149
+        width: 45
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 53.5}
+        - {x: -22.5, y: 52.5}
+        - {x: -22.5, y: -53.5}
+        - {x: 17.5, y: -53.5}
+        - {x: 22.5, y: -41.5}
+        - {x: 22.5, y: 53.5}
+    - name: SNES_MK1_sub1_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1149
+        width: 41
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -16}
+        - {x: 20.5, y: 27}
+        - {x: 18.5, y: 30}
+        - {x: 15.5, y: 33}
+        - {x: 7.5, y: 44}
+        - {x: 5.5, y: 45}
+        - {x: -10.5, y: 45}
+        - {x: -20.5, y: 26}
+        - {x: -20.5, y: -45}
+        - {x: -10.5, y: -45}
+        - {x: -6.5, y: -40}
+        - {x: 1.5, y: -45}
+        - {x: 18.5, y: -45}
+    - name: SNES_MK1_sub1_36
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1149
+        width: 40
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 50.5}
+        - {x: -20, y: 35.5}
+        - {x: -20, y: -32.5}
+        - {x: -16, y: -50.5}
+        - {x: 3, y: -50.5}
+        - {x: 20, y: -15.5}
+        - {x: 20, y: 46.5}
+        - {x: 14, y: 50.5}
+    - name: SNES_MK1_sub1_37
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1149
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 24}
+        - {x: -16.5, y: 20}
+        - {x: -16.5, y: -13}
+        - {x: -14.5, y: -19}
+        - {x: -0.5, y: -24}
+        - {x: 13.5, y: -24}
+        - {x: 16.5, y: -10}
+        - {x: 16.5, y: 24}
+    - name: SNES_MK1_sub1_38
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1149
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 23.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -16.5}
+        - {x: -18.5, y: -23.5}
+        - {x: -6.5, y: -23.5}
+        - {x: 19.5, y: -9.5}
+        - {x: 19.5, y: 12.5}
+        - {x: 14.5, y: 23.5}
+    - name: SNES_MK1_sub1_39
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1149
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 19}
+        - {x: -21, y: 2}
+        - {x: -21, y: -16}
+        - {x: -12, y: -19}
+        - {x: 21, y: -19}
+        - {x: 21, y: 10}
+        - {x: 14, y: 19}
+    - name: SNES_MK1_sub1_40
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1149
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 22}
+        - {x: -20.5, y: 20}
+        - {x: -20.5, y: -11}
+        - {x: -8.5, y: -22}
+        - {x: 20.5, y: -22}
+        - {x: 20.5, y: 16}
+        - {x: 18.5, y: 22}
+    - name: SNES_MK1_sub1_41
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1149
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24}
+        - {x: -17, y: 8}
+        - {x: -17, y: -24}
+        - {x: 10, y: -24}
+        - {x: 17, y: -19}
+        - {x: 17, y: 12}
+        - {x: 3, y: 24}
+    - name: SNES_MK1_sub1_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1149
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 24}
+        - {x: 6.5, y: 24}
+        - {x: -19.5, y: 6}
+        - {x: -19.5, y: -13}
+        - {x: -11.5, y: -24}
+        - {x: 16.5, y: -24}
+        - {x: 19.5, y: -15}
+        - {x: 19.5, y: 15}
+        - {x: 16.5, y: 23}
+    - name: SNES_MK1_sub1_43
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1149
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 19.5}
+        - {x: -20.5, y: -16.5}
+        - {x: -16.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 20.5, y: -2.5}
+        - {x: 20.5, y: 18.5}
+        - {x: 9.5, y: 19.5}
+    - name: SNES_MK1_sub1_44
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1149
+        width: 44
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 52.5}
+        - {x: -22, y: 47.5}
+        - {x: -22, y: -52.5}
+        - {x: 20, y: -52.5}
+        - {x: 22, y: -42.5}
+        - {x: 22, y: 41.5}
+        - {x: 14, y: 52.5}
+    - name: SNES_MK1_sub1_45
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1149
+        width: 41
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -52}
+        - {x: 18.5, y: -48}
+        - {x: 15.5, y: -19}
+        - {x: 13.5, y: -6}
+        - {x: 12.5, y: -5}
+        - {x: 12.5, y: -2}
+        - {x: 11.5, y: -1}
+        - {x: 11.5, y: 6}
+        - {x: 10.5, y: 10}
+        - {x: 11.5, y: 6}
+        - {x: 12.5, y: 0}
+        - {x: 12.5, y: -4}
+        - {x: 14.5, y: -8}
+        - {x: 18.5, y: -9}
+        - {x: 20.5, y: -9}
+        - {x: 20.5, y: 33}
+        - {x: 7.5, y: 53}
+        - {x: -20.5, y: 53}
+        - {x: -20.5, y: -53}
+        - {x: 18.5, y: -53}
+    - name: SNES_MK1_sub1_46
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1149
+        width: 41
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -21.5}
+        - {x: 13.5, y: -8.5}
+        - {x: 12.5, y: -7.5}
+        - {x: 12.5, y: -4.5}
+        - {x: 12.5, y: -6.5}
+        - {x: 16.5, y: -12.5}
+        - {x: 20.5, y: -13.5}
+        - {x: 20.5, y: 27.5}
+        - {x: 14.5, y: 54.5}
+        - {x: -1.5, y: 53.5}
+        - {x: -6.5, y: 48.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -20.5, y: 55.5}
+        - {x: -20.5, y: -55.5}
+        - {x: 19.5, y: -55.5}
+        - {x: 19.5, y: -54.5}
+        - {x: 18.5, y: -50.5}
+    - name: SNES_MK1_sub1_47
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1149
+        width: 43
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 58.5}
+        - {x: -21.5, y: -58.5}
+        - {x: 19.5, y: -58.5}
+        - {x: 21.5, y: -50.5}
+        - {x: 21.5, y: 42.5}
+        - {x: -4.5, y: 58.5}
+    - name: SNES_MK1_sub1_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1037
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 26}
+        - {x: 16.5, y: 24}
+        - {x: 15.5, y: 29}
+        - {x: 15.5, y: 45}
+        - {x: 12.5, y: 50}
+        - {x: 1.5, y: 50}
+        - {x: -14.5, y: 28}
+        - {x: -23.5, y: -37}
+        - {x: -23.5, y: -50}
+        - {x: 23.5, y: -50}
+        - {x: 23.5, y: 29}
+        - {x: 19.5, y: 29}
+    - name: SNES_MK1_sub1_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1037
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 50.5}
+        - {x: -27.5, y: -1.5}
+        - {x: -27.5, y: -50.5}
+        - {x: 22.5, y: -50.5}
+        - {x: 27.5, y: -15.5}
+        - {x: 27.5, y: 50.5}
+    - name: SNES_MK1_sub1_50
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1037
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 50.5}
+        - {x: -35.5, y: -4.5}
+        - {x: -35.5, y: -50.5}
+        - {x: 11.5, y: -50.5}
+        - {x: 35.5, y: 17.5}
+        - {x: 35.5, y: 50.5}
+    - name: SNES_MK1_sub1_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1037
+        width: 42
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 51.5}
+        - {x: -21, y: 1.5}
+        - {x: -21, y: -51.5}
+        - {x: 21, y: -51.5}
+        - {x: 21, y: 51.5}
+    - name: SNES_MK1_sub1_52
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1037
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -51.5}
+        - {x: 15.5, y: -46.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 26.5, y: 49.5}
+        - {x: 22.5, y: 51.5}
+        - {x: -17.5, y: 51.5}
+        - {x: -23.5, y: 41.5}
+        - {x: -26.5, y: 17.5}
+        - {x: -26.5, y: -51.5}
+        - {x: -18.5, y: -51.5}
+        - {x: -13.5, y: -44.5}
+        - {x: -4.5, y: -49.5}
+        - {x: -0.5, y: -51.5}
+    - name: SNES_MK1_sub1_53
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1037
+        width: 71
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 51.5}
+        - {x: -30.5, y: 34.5}
+        - {x: -35.5, y: -16.5}
+        - {x: -35.5, y: -51.5}
+        - {x: 10.5, y: -51.5}
+        - {x: 35.5, y: 17.5}
+        - {x: 35.5, y: 51.5}
+    - name: SNES_MK1_sub1_54
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1037
+        width: 48
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -51}
+        - {x: 24, y: -16}
+        - {x: 24, y: 51}
+        - {x: -14, y: 51}
+        - {x: -24, y: 46}
+        - {x: -24, y: -51}
+        - {x: -16, y: -51}
+        - {x: -12, y: -47}
+        - {x: 1, y: -51}
+    - name: SNES_MK1_sub1_55
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1037
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 48.5}
+        - {x: 19.5, y: 45.5}
+        - {x: 4.5, y: 50.5}
+        - {x: -11.5, y: 50.5}
+        - {x: -13.5, y: 49.5}
+        - {x: -27.5, y: 27.5}
+        - {x: -27.5, y: -50.5}
+        - {x: 18.5, y: -50.5}
+        - {x: 27.5, y: 2.5}
+        - {x: 27.5, y: 49.5}
+    - name: SNES_MK1_sub1_56
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 923
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 26}
+        - {x: 16.5, y: 24}
+        - {x: 15.5, y: 29}
+        - {x: 15.5, y: 45}
+        - {x: 12.5, y: 50}
+        - {x: 1.5, y: 50}
+        - {x: -14.5, y: 28}
+        - {x: -23.5, y: -37}
+        - {x: -23.5, y: -50}
+        - {x: 23.5, y: -50}
+        - {x: 23.5, y: 29}
+        - {x: 19.5, y: 29}
+    - name: SNES_MK1_sub1_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 923
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 38}
+        - {x: 19, y: 50}
+        - {x: -6, y: 50}
+        - {x: -24, y: 36}
+        - {x: -35, y: -10}
+        - {x: -35, y: -50}
+        - {x: 7, y: -50}
+        - {x: 9, y: -45}
+        - {x: 35, y: 16}
+    - name: SNES_MK1_sub1_58
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 923
+        width: 42
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 51.5}
+        - {x: -21, y: 1.5}
+        - {x: -21, y: -51.5}
+        - {x: 21, y: -51.5}
+        - {x: 21, y: 51.5}
+    - name: SNES_MK1_sub1_59
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 923
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -51.5}
+        - {x: 15.5, y: -46.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 26.5, y: 49.5}
+        - {x: 22.5, y: 51.5}
+        - {x: -17.5, y: 51.5}
+        - {x: -23.5, y: 41.5}
+        - {x: -26.5, y: 17.5}
+        - {x: -26.5, y: -51.5}
+        - {x: -18.5, y: -51.5}
+        - {x: -13.5, y: -44.5}
+        - {x: -4.5, y: -49.5}
+        - {x: -0.5, y: -51.5}
+    - name: SNES_MK1_sub1_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 923
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 50}
+        - {x: -33, y: 30}
+        - {x: -35, y: -24}
+        - {x: -35, y: -50}
+        - {x: 17, y: -50}
+        - {x: 35, y: -16}
+        - {x: 35, y: 50}
+    - name: SNES_MK1_sub1_61
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 923
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 49}
+        - {x: -15, y: 18}
+        - {x: -27, y: -31}
+        - {x: -27, y: -49}
+        - {x: 26, y: -49}
+        - {x: 27, y: -34}
+        - {x: 27, y: 49}
+    - name: SNES_MK1_sub1_62
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 923
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 48.5}
+        - {x: -36.5, y: -14.5}
+        - {x: -36.5, y: -48.5}
+        - {x: 26.5, y: -48.5}
+        - {x: 36.5, y: -17.5}
+        - {x: 36.5, y: 45.5}
+        - {x: 31.5, y: 48.5}
+    - name: SNES_MK1_sub1_63
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 923
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36.5}
+        - {x: -26, y: 20.5}
+        - {x: -26, y: -14.5}
+        - {x: -14, y: -36.5}
+        - {x: 9, y: -36.5}
+        - {x: 26, y: -1.5}
+        - {x: 26, y: 36.5}
+    - name: SNES_MK1_sub1_64
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 923
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36.5}
+        - {x: -26, y: 20.5}
+        - {x: -26, y: -14.5}
+        - {x: -14, y: -36.5}
+        - {x: 9, y: -36.5}
+        - {x: 26, y: -1.5}
+        - {x: 26, y: 36.5}
+    - name: SNES_MK1_sub1_65
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 923
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 23.5}
+        - {x: -21.5, y: -22.5}
+        - {x: -18.5, y: -23.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 21.5, y: -22.5}
+        - {x: 21.5, y: 23.5}
+    - name: SNES_MK1_sub1_66
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 923
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 32.5}
+        - {x: -9.5, y: 32.5}
+        - {x: -32.5, y: 6.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -28.5, y: -32.5}
+        - {x: 32.5, y: -32.5}
+        - {x: 32.5, y: -25.5}
+        - {x: 14.5, y: 26.5}
+    - name: SNES_MK1_sub1_67
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 923
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 37}
+        - {x: -38.5, y: -28}
+        - {x: -28.5, y: -36}
+        - {x: -25.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 38.5, y: -18}
+        - {x: 38.5, y: 9}
+        - {x: 13.5, y: 37}
+    - name: SNES_MK1_sub1_68
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 808
+        width: 45
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 49}
+        - {x: -19.5, y: 33}
+        - {x: -22.5, y: -12}
+        - {x: -22.5, y: -49}
+        - {x: -14.5, y: -49}
+        - {x: -8.5, y: -46}
+        - {x: 1.5, y: -49}
+        - {x: 22.5, y: -49}
+        - {x: 22.5, y: 32}
+        - {x: 9.5, y: 49}
+    - name: SNES_MK1_sub1_69
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 808
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 51}
+        - {x: -23.5, y: 27}
+        - {x: -23.5, y: -42}
+        - {x: -14.5, y: -51}
+        - {x: 0.5, y: -51}
+        - {x: 2.5, y: -41}
+        - {x: 2.5, y: -35}
+        - {x: 8.5, y: -48}
+        - {x: 10.5, y: -51}
+        - {x: 23.5, y: -51}
+        - {x: 23.5, y: 49}
+        - {x: 18.5, y: 51}
+    - name: SNES_MK1_sub1_70
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 808
+        width: 35
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 50}
+        - {x: -17.5, y: 49}
+        - {x: -17.5, y: 13}
+        - {x: -16.5, y: 12}
+        - {x: -6.5, y: -47}
+        - {x: -2.5, y: -50}
+        - {x: 17.5, y: -50}
+        - {x: 17.5, y: 40}
+        - {x: 3.5, y: 50}
+    - name: SNES_MK1_sub1_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 808
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -1}
+        - {x: 14, y: 42}
+        - {x: -27, y: 42}
+        - {x: -27, y: -13}
+        - {x: -19, y: -42}
+        - {x: 8, y: -42}
+        - {x: 8, y: -31}
+        - {x: 24, y: -34}
+        - {x: 27, y: -35}
+    - name: SNES_MK1_sub1_72
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 808
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 45.5}
+        - {x: -38.5, y: 23.5}
+        - {x: -38.5, y: -27.5}
+        - {x: -24.5, y: -45.5}
+        - {x: 4.5, y: -45.5}
+        - {x: 38.5, y: 18.5}
+        - {x: 38.5, y: 43.5}
+        - {x: 36.5, y: 45.5}
+    - name: SNES_MK1_sub1_73
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 808
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 39.5}
+        - {x: -31.5, y: -0.5}
+        - {x: -20.5, y: -39.5}
+        - {x: 10.5, y: -39.5}
+        - {x: 31.5, y: 4.5}
+        - {x: 31.5, y: 23.5}
+        - {x: 6.5, y: 39.5}
+    - name: SNES_MK1_sub1_74
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 808
+        width: 45
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 49}
+        - {x: -19.5, y: 33}
+        - {x: -22.5, y: -12}
+        - {x: -22.5, y: -49}
+        - {x: -14.5, y: -49}
+        - {x: -8.5, y: -46}
+        - {x: 1.5, y: -49}
+        - {x: 22.5, y: -49}
+        - {x: 22.5, y: 32}
+        - {x: 9.5, y: 49}
+    - name: SNES_MK1_sub1_75
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 808
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 51}
+        - {x: -23.5, y: 27}
+        - {x: -23.5, y: -42}
+        - {x: -14.5, y: -51}
+        - {x: 0.5, y: -51}
+        - {x: 2.5, y: -41}
+        - {x: 2.5, y: -35}
+        - {x: 8.5, y: -48}
+        - {x: 10.5, y: -51}
+        - {x: 23.5, y: -51}
+        - {x: 23.5, y: 49}
+        - {x: 18.5, y: 51}
+    - name: SNES_MK1_sub1_76
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 808
+        width: 35
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 50}
+        - {x: -17.5, y: 49}
+        - {x: -17.5, y: 13}
+        - {x: -16.5, y: 12}
+        - {x: -6.5, y: -47}
+        - {x: -2.5, y: -50}
+        - {x: 17.5, y: -50}
+        - {x: 17.5, y: 40}
+        - {x: 3.5, y: 50}
+    - name: SNES_MK1_sub1_77
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 808
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -1}
+        - {x: 14, y: 42}
+        - {x: -27, y: 42}
+        - {x: -27, y: -13}
+        - {x: -19, y: -42}
+        - {x: 8, y: -42}
+        - {x: 8, y: -31}
+        - {x: 24, y: -34}
+        - {x: 27, y: -35}
+    - name: SNES_MK1_sub1_78
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 808
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 38}
+        - {x: -40.5, y: 1}
+        - {x: -27.5, y: -38}
+        - {x: -5.5, y: -38}
+        - {x: -1.5, y: -19}
+        - {x: 40.5, y: 25}
+        - {x: 40.5, y: 38}
+    - name: SNES_MK1_sub1_79
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 808
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 39.5}
+        - {x: -31.5, y: -0.5}
+        - {x: -20.5, y: -39.5}
+        - {x: 10.5, y: -39.5}
+        - {x: 31.5, y: 4.5}
+        - {x: 31.5, y: 23.5}
+        - {x: 6.5, y: 39.5}
+    - name: SNES_MK1_sub1_80
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 808
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 49.5}
+        - {x: -24, y: 40.5}
+        - {x: -24, y: -1.5}
+        - {x: -11, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 24, y: 47.5}
+        - {x: 16, y: 49.5}
+    - name: SNES_MK1_sub1_81
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 808
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 47}
+        - {x: -24, y: 47}
+        - {x: -26, y: 43}
+        - {x: -26, y: -15}
+        - {x: -11, y: -47}
+        - {x: 3, y: -47}
+        - {x: 26, y: -8}
+        - {x: 26, y: 19}
+        - {x: 24, y: 28}
+    - name: SNES_MK1_sub1_82
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 693
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -49}
+        - {x: 23, y: 49}
+        - {x: -1, y: 49}
+        - {x: -23, y: 18}
+        - {x: -23, y: -49}
+        - {x: -15, y: -49}
+        - {x: 0, y: -31}
+        - {x: 1, y: -27}
+        - {x: 3, y: -49}
+    - name: SNES_MK1_sub1_83
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 693
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 46}
+        - {x: -18.5, y: 43}
+        - {x: -25.5, y: 29}
+        - {x: -25.5, y: -10}
+        - {x: -21.5, y: -11}
+        - {x: -17.5, y: -5}
+        - {x: -2.5, y: -46}
+        - {x: 13.5, y: -46}
+        - {x: 25.5, y: -9}
+        - {x: 25.5, y: 46}
+    - name: SNES_MK1_sub1_84
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 693
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 44}
+        - {x: -35.5, y: 43}
+        - {x: -38.5, y: 25}
+        - {x: -38.5, y: 6}
+        - {x: -15.5, y: -44}
+        - {x: 13.5, y: -44}
+        - {x: 38.5, y: 28}
+        - {x: 38.5, y: 44}
+    - name: SNES_MK1_sub1_85
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 693
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 47}
+        - {x: -25, y: 37}
+        - {x: -25, y: -5}
+        - {x: -8, y: -47}
+        - {x: 8, y: -47}
+        - {x: 13, y: -43}
+        - {x: 25, y: 0}
+        - {x: 25, y: 47}
+    - name: SNES_MK1_sub1_86
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 693
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 22.5}
+        - {x: 21.5, y: 46.5}
+        - {x: 4.5, y: 46.5}
+        - {x: -21.5, y: 33.5}
+        - {x: -21.5, y: 2.5}
+        - {x: -19.5, y: 0.5}
+        - {x: 0.5, y: -46.5}
+        - {x: 17.5, y: -46.5}
+        - {x: 21.5, y: -43.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 19.5, y: 15.5}
+    - name: SNES_MK1_sub1_87
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 693
+        width: 44
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 42.5}
+        - {x: -22, y: 42.5}
+        - {x: -22, y: 23.5}
+        - {x: -16, y: 16.5}
+        - {x: -22, y: -27.5}
+        - {x: -22, y: -32.5}
+        - {x: -20, y: -42.5}
+        - {x: 22, y: -42.5}
+        - {x: 22, y: 13.5}
+        - {x: 19, y: 40.5}
+    - name: SNES_MK1_sub1_88
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 693
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 51}
+        - {x: -23.5, y: 27}
+        - {x: -23.5, y: -42}
+        - {x: -14.5, y: -51}
+        - {x: 0.5, y: -51}
+        - {x: 2.5, y: -41}
+        - {x: 2.5, y: -35}
+        - {x: 8.5, y: -48}
+        - {x: 10.5, y: -51}
+        - {x: 23.5, y: -51}
+        - {x: 23.5, y: 49}
+        - {x: 18.5, y: 51}
+    - name: SNES_MK1_sub1_89
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 693
+        width: 45
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 49}
+        - {x: -19.5, y: 33}
+        - {x: -22.5, y: -12}
+        - {x: -22.5, y: -49}
+        - {x: -14.5, y: -49}
+        - {x: -8.5, y: -46}
+        - {x: 1.5, y: -49}
+        - {x: 22.5, y: -49}
+        - {x: 22.5, y: 32}
+        - {x: 9.5, y: 49}
+    - name: SNES_MK1_sub1_90
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 693
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 32.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -32.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 22.5, y: 32.5}
+    - name: SNES_MK1_sub1_91
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 693
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 24.5}
+        - {x: -21, y: 16.5}
+        - {x: -22, y: -1.5}
+        - {x: -22, y: -24.5}
+        - {x: 22, y: -24.5}
+        - {x: 22, y: 20.5}
+        - {x: 19, y: 24.5}
+    - name: SNES_MK1_sub1_92
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 693
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -22, y: 17.5}
+        - {x: -22, y: -25.5}
+        - {x: 22, y: -25.5}
+        - {x: 22, y: 24.5}
+        - {x: 17, y: 25.5}
+    - name: SNES_MK1_sub1_93
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 693
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -6}
+        - {x: 34, y: -18}
+        - {x: 38, y: -17}
+        - {x: 38, y: -5}
+        - {x: 1, y: 24}
+        - {x: -33, y: 24}
+        - {x: -38, y: 23}
+        - {x: -38, y: -24}
+        - {x: 3, y: -24}
+        - {x: 7, y: -14}
+        - {x: 6, y: -9}
+        - {x: 2, y: -5}
+    - name: SNES_MK1_sub1_94
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 693
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 25}
+        - {x: -38, y: 22}
+        - {x: -38, y: -25}
+        - {x: -18, y: -25}
+        - {x: -8, y: -24}
+        - {x: 1, y: -25}
+        - {x: 38, y: -25}
+        - {x: 38, y: -11}
+        - {x: -3, y: 25}
+    - name: SNES_MK1_sub1_95
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 693
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -16, y: 27}
+        - {x: -21, y: -2}
+        - {x: -21, y: -30}
+        - {x: -11, y: -32}
+        - {x: 1, y: -32}
+        - {x: 21, y: -17}
+        - {x: 21, y: 31}
+        - {x: 19, y: 32}
+    - name: SNES_MK1_sub1_96
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 693
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 29}
+        - {x: -24.5, y: 13}
+        - {x: -33.5, y: -14}
+        - {x: -33.5, y: -29}
+        - {x: 25.5, y: -29}
+        - {x: 33.5, y: -19}
+        - {x: 33.5, y: 16}
+        - {x: 19.5, y: 29}
+    - name: SNES_MK1_sub1_97
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 693
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 44.5}
+        - {x: -3.5, y: 42.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -44.5}
+        - {x: 22.5, y: -44.5}
+        - {x: 22.5, y: 28.5}
+        - {x: 11.5, y: 44.5}
+    - name: SNES_MK1_sub1_98
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 559
+        width: 46
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 43.5}
+        - {x: -7, y: 26.5}
+        - {x: -23, y: -30.5}
+        - {x: -23, y: -43.5}
+        - {x: 23, y: -43.5}
+        - {x: 23, y: 43.5}
+    - name: SNES_MK1_sub1_99
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 559
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 48}
+        - {x: -17, y: 39}
+        - {x: -25, y: -13}
+        - {x: -25, y: -48}
+        - {x: 21, y: -48}
+        - {x: 25, y: -29}
+        - {x: 25, y: 27}
+        - {x: 22, y: 48}
+    - name: SNES_MK1_sub1_100
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 559
+        width: 69
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 52}
+        - {x: -34.5, y: -3}
+        - {x: -34.5, y: -52}
+        - {x: 13.5, y: -52}
+        - {x: 34.5, y: -19}
+        - {x: 34.5, y: 50}
+        - {x: 31.5, y: 52}
+    - name: SNES_MK1_sub1_101
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 559
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 61.5}
+        - {x: -21, y: 4.5}
+        - {x: -21, y: -61.5}
+        - {x: 21, y: -61.5}
+        - {x: 21, y: 61.5}
+    - name: SNES_MK1_sub1_102
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 559
+        width: 39
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 57.5}
+        - {x: -19.5, y: 34.5}
+        - {x: -19.5, y: -57.5}
+        - {x: 19.5, y: -57.5}
+        - {x: 19.5, y: 49.5}
+        - {x: 9.5, y: 57.5}
+    - name: SNES_MK1_sub1_103
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 559
+        width: 53
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 51}
+        - {x: -16.5, y: 31}
+        - {x: -24.5, y: -16}
+        - {x: -26.5, y: -32}
+        - {x: -26.5, y: -51}
+        - {x: 26.5, y: -51}
+        - {x: 26.5, y: 22}
+        - {x: 13.5, y: 51}
+    - name: SNES_MK1_sub1_104
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 559
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 24}
+        - {x: -33, y: 19}
+        - {x: -33, y: -22}
+        - {x: -25, y: -24}
+        - {x: 16, y: -24}
+        - {x: 33, y: -17}
+        - {x: 33, y: 8}
+        - {x: 24, y: 24}
+    - name: SNES_MK1_sub1_105
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 559
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 35}
+        - {x: 15, y: 33}
+        - {x: -36, y: 6}
+        - {x: -36, y: -34}
+        - {x: -30, y: -35}
+        - {x: 28, y: -35}
+        - {x: 36, y: -16}
+        - {x: 36, y: 35}
+    - name: SNES_MK1_sub1_106
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 559
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 39.5}
+        - {x: 4, y: 39.5}
+        - {x: -11, y: 23.5}
+        - {x: -18, y: -8.5}
+        - {x: -19, y: -17.5}
+        - {x: -19, y: -39.5}
+        - {x: -7, y: -39.5}
+        - {x: 19, y: -17.5}
+        - {x: 19, y: 35.5}
+    - name: SNES_MK1_sub1_107
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 559
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 36.5}
+        - {x: -9, y: 33.5}
+        - {x: -26, y: 5.5}
+        - {x: -27, y: 2.5}
+        - {x: -27, y: -36.5}
+        - {x: -2, y: -36.5}
+        - {x: 27, y: -27.5}
+        - {x: 27, y: 29.5}
+        - {x: 25, y: 36.5}
+    - name: SNES_MK1_sub1_108
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 559
+        width: 90
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -18.5}
+        - {x: 45, y: -16.5}
+        - {x: 45, y: -6.5}
+        - {x: 21, y: 27.5}
+        - {x: -13, y: 27.5}
+        - {x: -45, y: -11.5}
+        - {x: -45, y: -27.5}
+        - {x: 21, y: -27.5}
+        - {x: 23, y: -23.5}
+        - {x: 22, y: -16.5}
+        - {x: 17, y: -11.5}
+    - name: SNES_MK1_sub1_109
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 559
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 7.5}
+        - {x: 11, y: 6.5}
+        - {x: 22, y: 6.5}
+        - {x: 24, y: 4.5}
+        - {x: 28, y: 4.5}
+        - {x: 28, y: 21.5}
+        - {x: 12, y: 44.5}
+        - {x: -12, y: 44.5}
+        - {x: -28, y: 11.5}
+        - {x: -28, y: -31.5}
+        - {x: 0, y: -30.5}
+        - {x: 5, y: -26.5}
+        - {x: 6, y: -23.5}
+        - {x: 6, y: -34.5}
+        - {x: 13, y: -44.5}
+        - {x: 23, y: -44.5}
+        - {x: 26, y: -6.5}
+        - {x: 19, y: 1.5}
+        - {x: 11, y: 6.5}
+    - name: SNES_MK1_sub1_110
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 559
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 36}
+        - {x: -19.5, y: 32}
+        - {x: -24.5, y: 17}
+        - {x: -37.5, y: -23}
+        - {x: -37.5, y: -36}
+        - {x: 8.5, y: -36}
+        - {x: 37.5, y: -6}
+        - {x: 37.5, y: 19}
+        - {x: 12.5, y: 36}
+    - name: SNES_MK1_sub1_111
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 559
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -5}
+        - {x: -11.5, y: -32}
+        - {x: 20.5, y: -32}
+        - {x: 20.5, y: -7}
+        - {x: 17.5, y: 29}
+        - {x: 6.5, y: 32}
+        - {x: -18.5, y: 32}
+        - {x: -20.5, y: 30}
+    - name: SNES_MK1_sub1_112
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 559
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 37}
+        - {x: -41, y: 32}
+        - {x: -41, y: -7}
+        - {x: -20, y: -37}
+        - {x: 41, y: -37}
+        - {x: 41, y: -9}
+        - {x: 7, y: 37}
+    - name: SNES_MK1_sub1_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 440
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 51}
+        - {x: -23, y: -51}
+        - {x: 23, y: -51}
+        - {x: 23, y: 13}
+        - {x: -1, y: 51}
+    - name: SNES_MK1_sub1_114
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 440
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 17.5}
+        - {x: -3.5, y: 49.5}
+        - {x: -24.5, y: 49.5}
+        - {x: -24.5, y: -22.5}
+        - {x: -20.5, y: -49.5}
+        - {x: -8.5, y: -49.5}
+        - {x: -7.5, y: -46.5}
+        - {x: 20.5, y: -49.5}
+        - {x: 24.5, y: -47.5}
+    - name: SNES_MK1_sub1_115
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 440
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 48}
+        - {x: -27, y: -33}
+        - {x: -25, y: -48}
+        - {x: 18, y: -48}
+        - {x: 27, y: -47}
+        - {x: 27, y: -18}
+        - {x: 20, y: 16}
+        - {x: -1, y: 45}
+        - {x: -11, y: 48}
+    - name: SNES_MK1_sub1_116
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 440
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 49.5}
+        - {x: -22, y: 48.5}
+        - {x: -22, y: -43.5}
+        - {x: -19, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 22, y: 26.5}
+        - {x: 16, y: 49.5}
+    - name: SNES_MK1_sub1_117
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 440
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 50}
+        - {x: -23.5, y: -50}
+        - {x: 23.5, y: -50}
+        - {x: 23.5, y: -11}
+        - {x: 15.5, y: 27}
+        - {x: 5.5, y: 50}
+    - name: SNES_MK1_sub1_118
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 440
+        width: 54
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -50.5}
+        - {x: 27, y: -5.5}
+        - {x: -10, y: 50.5}
+        - {x: -27, y: 50.5}
+        - {x: -27, y: -50.5}
+    - name: SNES_MK1_sub1_119
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 440
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 50}
+        - {x: -28, y: 50}
+        - {x: -28, y: -27}
+        - {x: -24, y: -50}
+        - {x: -3, y: -50}
+        - {x: 28, y: -36}
+        - {x: 28, y: -20}
+        - {x: 0, y: 41}
+    - name: SNES_MK1_sub1_120
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 440
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 50}
+        - {x: -23.5, y: 45}
+        - {x: -23.5, y: -50}
+        - {x: 21.5, y: -50}
+        - {x: 23.5, y: -49}
+        - {x: 23.5, y: 16}
+        - {x: 10.5, y: 50}
+    - name: SNES_MK1_sub1_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 440
+        width: 35
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 53.5}
+        - {x: -17.5, y: -53.5}
+        - {x: 17.5, y: -53.5}
+        - {x: 17.5, y: 38.5}
+        - {x: 15.5, y: 53.5}
+    - name: SNES_MK1_sub1_122
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 440
+        width: 29
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_123
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 440
+        width: 38
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 51}
+        - {x: -19, y: 33}
+        - {x: -19, y: -51}
+        - {x: 19, y: -51}
+        - {x: 19, y: 51}
+    - name: SNES_MK1_sub1_124
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 440
+        width: 40
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 49.5}
+        - {x: -17, y: 23.5}
+        - {x: -20, y: 6.5}
+        - {x: -20, y: -49.5}
+        - {x: 20, y: -49.5}
+        - {x: 20, y: 49.5}
+    - name: SNES_MK1_sub1_125
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 440
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 50.5}
+        - {x: -24, y: -50.5}
+        - {x: 19, y: -50.5}
+        - {x: 24, y: -49.5}
+        - {x: 24, y: -26.5}
+        - {x: 16, y: 9.5}
+        - {x: 9, y: 35.5}
+        - {x: 3, y: 50.5}
+    - name: SNES_MK1_sub1_126
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 440
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 27.5}
+        - {x: -20.5, y: 20.5}
+        - {x: -20.5, y: -27.5}
+        - {x: 20.5, y: -27.5}
+        - {x: 20.5, y: 21.5}
+        - {x: 15.5, y: 27.5}
+    - name: SNES_MK1_sub1_127
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 440
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 30}
+        - {x: -22.5, y: -30}
+        - {x: 22.5, y: -30}
+        - {x: 22.5, y: 15}
+        - {x: 14.5, y: 30}
+    - name: SNES_MK1_sub1_128
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 440
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 28.5}
+        - {x: -26.5, y: 22.5}
+        - {x: -26.5, y: -4.5}
+        - {x: -19.5, y: -28.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 10.5, y: 28.5}
+    - name: SNES_MK1_sub1_129
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 440
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 47}
+        - {x: -1.5, y: 47}
+        - {x: -18.5, y: 38}
+        - {x: -18.5, y: -47}
+        - {x: -9.5, y: -47}
+        - {x: -7.5, y: -46}
+        - {x: -0.5, y: -47}
+        - {x: 18.5, y: -47}
+    - name: SNES_MK1_sub1_130
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 440
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 19}
+        - {x: -21, y: -47}
+        - {x: 19, y: -47}
+        - {x: 21, y: -35}
+        - {x: 21, y: 47}
+        - {x: 0, y: 47}
+        - {x: -16, y: 42}
+    - name: SNES_MK1_sub1_131
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 440
+        width: 41
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 49.5}
+        - {x: -16.5, y: 30.5}
+        - {x: -20.5, y: 12.5}
+        - {x: -20.5, y: -49.5}
+        - {x: 20.5, y: -49.5}
+        - {x: 20.5, y: 44.5}
+        - {x: 12.5, y: 49.5}
+    - name: SNES_MK1_sub1_132
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 440
+        width: 39
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 49.5}
+        - {x: -19.5, y: 26.5}
+        - {x: -19.5, y: -49.5}
+        - {x: 19.5, y: -49.5}
+        - {x: 19.5, y: 49.5}
+    - name: SNES_MK1_sub1_133
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 440
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 19.5}
+        - {x: 16, y: 35.5}
+        - {x: 0, y: 49.5}
+        - {x: -13, y: 49.5}
+        - {x: -19, y: 33.5}
+        - {x: -19, y: -49.5}
+        - {x: -11, y: -49.5}
+        - {x: -5, y: -43.5}
+        - {x: 5, y: -49.5}
+        - {x: 19, y: -49.5}
+    - name: SNES_MK1_sub1_134
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 440
+        width: 43
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 49}
+        - {x: -15.5, y: 49}
+        - {x: -21.5, y: 40}
+        - {x: -21.5, y: -11}
+        - {x: -15.5, y: -49}
+        - {x: 21.5, y: -49}
+        - {x: 21.5, y: -19}
+        - {x: 11.5, y: 36}
+    - name: SNES_MK1_sub1_135
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 440
+        width: 43
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 48.5}
+        - {x: -21.5, y: 35.5}
+        - {x: -21.5, y: -1.5}
+        - {x: -16.5, y: -48.5}
+        - {x: 21.5, y: -48.5}
+        - {x: 21.5, y: -13.5}
+        - {x: 9.5, y: 48.5}
+    - name: SNES_MK1_sub1_136
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 440
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -17}
+        - {x: 15.5, y: 34}
+        - {x: 11.5, y: 49}
+        - {x: 8.5, y: 50}
+        - {x: -11.5, y: 50}
+        - {x: -20.5, y: 37}
+        - {x: -20.5, y: -50}
+        - {x: -10.5, y: -50}
+        - {x: -7.5, y: -46}
+        - {x: 7.5, y: -50}
+        - {x: 20.5, y: -50}
+    - name: SNES_MK1_sub1_137
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 440
+        width: 36
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 40.5}
+        - {x: 6, y: 48.5}
+        - {x: -6, y: 48.5}
+        - {x: -18, y: 33.5}
+        - {x: -18, y: 21.5}
+        - {x: -16, y: 11.5}
+        - {x: -18, y: -26.5}
+        - {x: -18, y: -48.5}
+        - {x: -10, y: -48.5}
+        - {x: -6, y: -45.5}
+        - {x: 5, y: -48.5}
+        - {x: 18, y: -48.5}
+    - name: SNES_MK1_sub1_138
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 440
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 36}
+        - {x: -20.5, y: -36}
+        - {x: 20.5, y: -36}
+        - {x: 20.5, y: 35}
+        - {x: 14.5, y: 36}
+    - name: SNES_MK1_sub1_139
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 440
+        width: 50
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 8}
+        - {x: -5, y: -49}
+        - {x: 1, y: -57}
+        - {x: 9, y: -57}
+        - {x: 25, y: -30}
+        - {x: 25, y: 57}
+        - {x: -7, y: 57}
+        - {x: -25, y: 50}
+    - name: SNES_MK1_sub1_140
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 440
+        width: 52
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 56}
+        - {x: -26, y: 34}
+        - {x: -20, y: 24}
+        - {x: -6, y: -56}
+        - {x: 13, y: -56}
+        - {x: 26, y: -19}
+        - {x: 26, y: 56}
+    - name: SNES_MK1_sub1_141
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 440
+        width: 42
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 58}
+        - {x: -21, y: 3}
+        - {x: -18, y: -26}
+        - {x: -12, y: -58}
+        - {x: 13, y: -58}
+        - {x: 21, y: -24}
+        - {x: 21, y: 58}
+    - name: SNES_MK1_sub1_142
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 332
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 47.5}
+        - {x: -34.5, y: 47.5}
+        - {x: -34.5, y: -6.5}
+        - {x: -21.5, y: -47.5}
+        - {x: 9.5, y: -47.5}
+        - {x: 10.5, y: -42.5}
+        - {x: 34.5, y: -39.5}
+        - {x: 34.5, y: 20.5}
+    - name: SNES_MK1_sub1_143
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 332
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 37}
+        - {x: -35.5, y: -11}
+        - {x: 1.5, y: -37}
+        - {x: 32.5, y: -37}
+        - {x: 35.5, y: -19}
+        - {x: 35.5, y: 25}
+        - {x: -1.5, y: 37}
+    - name: SNES_MK1_sub1_144
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 332
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 43}
+        - {x: 12.5, y: 43}
+        - {x: 11.5, y: 42}
+        - {x: 11.5, y: 34}
+        - {x: -24.5, y: 25}
+        - {x: -25.5, y: 19}
+        - {x: -25.5, y: -30}
+        - {x: -20.5, y: -39}
+        - {x: -9.5, y: -43}
+        - {x: 6.5, y: -43}
+        - {x: 21.5, y: -13}
+        - {x: 25.5, y: 8}
+        - {x: 25.5, y: 41}
+    - name: SNES_MK1_sub1_145
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 332
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 37.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: -27.5}
+        - {x: -14, y: -37.5}
+        - {x: 21, y: -37.5}
+        - {x: 21, y: 37.5}
+    - name: SNES_MK1_sub1_146
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 332
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 5}
+        - {x: -33.5, y: -26}
+        - {x: -25.5, y: -31}
+        - {x: 11.5, y: -31}
+        - {x: 33.5, y: 1}
+        - {x: 33.5, y: 31}
+        - {x: 23.5, y: 31}
+        - {x: 19.5, y: 30}
+    - name: SNES_MK1_sub1_147
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 332
+        width: 89
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_148
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 332
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 44}
+        - {x: -30.5, y: 41}
+        - {x: -30.5, y: -44}
+        - {x: 30.5, y: -44}
+        - {x: 30.5, y: 38}
+        - {x: 11.5, y: 44}
+    - name: SNES_MK1_sub1_149
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 332
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 23.5}
+        - {x: -29, y: -3.5}
+        - {x: -29, y: -20.5}
+        - {x: -21, y: -23.5}
+        - {x: 29, y: -23.5}
+        - {x: 29, y: 8.5}
+        - {x: 27, y: 23.5}
+    - name: SNES_MK1_sub1_150
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 332
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36}
+        - {x: -28.5, y: 4}
+        - {x: -28.5, y: -35}
+        - {x: -25.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 28.5, y: 33}
+        - {x: 18.5, y: 36}
+    - name: SNES_MK1_sub1_151
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 332
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -24, y: 5}
+        - {x: -24, y: -18}
+        - {x: -23, y: -23}
+        - {x: -21, y: -26}
+        - {x: 24, y: -26}
+        - {x: 24, y: 26}
+    - name: SNES_MK1_sub1_152
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 332
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 21.5}
+        - {x: -33, y: 1.5}
+        - {x: -33, y: -16.5}
+        - {x: -19, y: -21.5}
+        - {x: 33, y: -21.5}
+        - {x: 33, y: 21.5}
+    - name: SNES_MK1_sub1_153
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 332
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 21}
+        - {x: -11, y: 21}
+        - {x: -31, y: 11}
+        - {x: -31, y: -5}
+        - {x: -18, y: -21}
+        - {x: 21, y: -21}
+        - {x: 28, y: -15}
+        - {x: 31, y: -2}
+        - {x: 31, y: 10}
+    - name: SNES_MK1_sub1_154
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 237
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 41.5}
+        - {x: -27.5, y: 9.5}
+        - {x: -27.5, y: -40.5}
+        - {x: -26.5, y: -41.5}
+        - {x: 14.5, y: -41.5}
+        - {x: 27.5, y: -15.5}
+        - {x: 27.5, y: 33.5}
+        - {x: 22.5, y: 41.5}
+    - name: SNES_MK1_sub1_155
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 237
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -13}
+        - {x: 11, y: -15}
+        - {x: 25, y: 3}
+        - {x: 25, y: 24}
+        - {x: 24, y: 28}
+        - {x: 21, y: 33}
+        - {x: -12, y: 33}
+        - {x: -25, y: 29}
+        - {x: -25, y: -33}
+        - {x: -8, y: -33}
+        - {x: -7, y: -23}
+        - {x: -1, y: -4}
+    - name: SNES_MK1_sub1_156
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 237
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 22.5}
+        - {x: -23.5, y: 16.5}
+        - {x: -26.5, y: 13.5}
+        - {x: -29.5, y: 5.5}
+        - {x: -29.5, y: -18.5}
+        - {x: -24.5, y: -22.5}
+        - {x: 25.5, y: -22.5}
+        - {x: 29.5, y: -21.5}
+        - {x: 29.5, y: 11.5}
+        - {x: 24.5, y: 22.5}
+    - name: SNES_MK1_sub1_157
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 237
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 31.5}
+        - {x: -26, y: -31.5}
+        - {x: 15, y: -31.5}
+        - {x: 26, y: -19.5}
+        - {x: 26, y: 14.5}
+        - {x: 1, y: 31.5}
+    - name: SNES_MK1_sub1_158
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 237
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 34}
+        - {x: -13.5, y: 34}
+        - {x: -19.5, y: 28}
+        - {x: -19.5, y: 23}
+        - {x: -27.5, y: -13}
+        - {x: -27.5, y: -34}
+        - {x: 14.5, y: -34}
+        - {x: 21.5, y: -25}
+        - {x: 27.5, y: -14}
+        - {x: 27.5, y: 9}
+    - name: SNES_MK1_sub1_159
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 237
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 5}
+        - {x: -33.5, y: -26}
+        - {x: -25.5, y: -31}
+        - {x: 11.5, y: -31}
+        - {x: 33.5, y: 1}
+        - {x: 33.5, y: 31}
+        - {x: 23.5, y: 31}
+        - {x: 19.5, y: 30}
+    - name: SNES_MK1_sub1_160
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 237
+        width: 89
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_161
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 237
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -17, y: 17}
+        - {x: -17, y: -20}
+        - {x: -14, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: SNES_MK1_sub1_162
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 237
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34.5}
+        - {x: -17, y: 22.5}
+        - {x: -17, y: -34.5}
+        - {x: 16, y: -34.5}
+        - {x: 17, y: -27.5}
+        - {x: 17, y: 34.5}
+    - name: SNES_MK1_sub1_163
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 237
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 18.5}
+        - {x: -20.5, y: 17.5}
+        - {x: -20.5, y: -15.5}
+        - {x: -19.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 20.5, y: 18.5}
+    - name: SNES_MK1_sub1_164
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 237
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31.5}
+        - {x: -31, y: 1.5}
+        - {x: -31, y: -23.5}
+        - {x: -18, y: -31.5}
+        - {x: 25, y: -31.5}
+        - {x: 31, y: -18.5}
+        - {x: 31, y: 31.5}
+    - name: SNES_MK1_sub1_165
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 237
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 38.5}
+        - {x: -26.5, y: 11.5}
+        - {x: -26.5, y: -23.5}
+        - {x: -22.5, y: -38.5}
+        - {x: 22.5, y: -38.5}
+        - {x: 23.5, y: -37.5}
+        - {x: 26.5, y: -5.5}
+        - {x: 26.5, y: 38.5}
+    - name: SNES_MK1_sub1_166
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 127
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -29}
+        - {x: 15, y: 27}
+        - {x: 3, y: 49}
+        - {x: -11, y: 49}
+        - {x: -22, y: 41}
+        - {x: -22, y: -49}
+        - {x: -13, y: -49}
+        - {x: -7, y: -45}
+        - {x: 1, y: -49}
+        - {x: 22, y: -49}
+    - name: SNES_MK1_sub1_167
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 127
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -17.5}
+        - {x: 2, y: -19.5}
+        - {x: 8, y: -44.5}
+        - {x: 10, y: -45.5}
+        - {x: 24, y: -45.5}
+        - {x: 24, y: 6.5}
+        - {x: 16, y: 45.5}
+        - {x: -16, y: 45.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -45.5}
+        - {x: -12, y: -45.5}
+        - {x: -2, y: -32.5}
+        - {x: 1, y: -27.5}
+        - {x: 2, y: -21.5}
+    - name: SNES_MK1_sub1_168
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 127
+        width: 33
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 41}
+        - {x: 2.5, y: 33}
+        - {x: 1.5, y: 21}
+        - {x: -3.5, y: 1}
+        - {x: -3.5, y: -15}
+        - {x: 4.5, y: -41}
+        - {x: 14.5, y: -41}
+        - {x: 16.5, y: -37}
+        - {x: 16.5, y: 35}
+        - {x: 13.5, y: 41}
+      - - {x: -7.5, y: -1}
+        - {x: -9.5, y: -3}
+        - {x: -10.5, y: -7}
+        - {x: -10.5, y: -9}
+        - {x: -8.5, y: -10}
+        - {x: -4.5, y: -10}
+        - {x: -2.5, y: -7}
+        - {x: -2.5, y: -3}
+        - {x: -3.5, y: -1}
+      - - {x: -16.5, y: -3}
+        - {x: -14.5, y: -3}
+        - {x: -12.5, y: -1}
+        - {x: -13.5, y: 2}
+        - {x: -16.5, y: 2}
+      - - {x: -11.5, y: 2}
+        - {x: -8.5, y: 2}
+        - {x: -6.5, y: 3}
+        - {x: -6.5, y: 8}
+        - {x: -11.5, y: 8}
+        - {x: -12.5, y: 7}
+        - {x: -12.5, y: 4}
+    - name: SNES_MK1_sub1_169
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 184
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_170
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 208
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_171
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 190
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_172
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 127
+        width: 57
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 44}
+        - {x: -27.5, y: 33}
+        - {x: -28.5, y: 29}
+        - {x: -28.5, y: -24}
+        - {x: -22.5, y: -29}
+        - {x: -15.5, y: -38}
+        - {x: -8.5, y: -44}
+        - {x: 28.5, y: -44}
+        - {x: 28.5, y: -2}
+        - {x: 26.5, y: 16}
+        - {x: 4.5, y: 44}
+    - name: SNES_MK1_sub1_173
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 127
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 40.5}
+        - {x: -30.5, y: 2.5}
+        - {x: -30.5, y: -40.5}
+        - {x: 29.5, y: -40.5}
+        - {x: 30.5, y: -38.5}
+        - {x: 30.5, y: 40.5}
+    - name: SNES_MK1_sub1_174
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 127
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 29.5}
+        - {x: -23, y: 9.5}
+        - {x: -23, y: -4.5}
+        - {x: -3, y: -13.5}
+        - {x: 17, y: -29.5}
+        - {x: 23, y: -29.5}
+        - {x: 23, y: 29.5}
+    - name: SNES_MK1_sub1_175
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 184
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_176
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 127
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 4.5}
+        - {x: -34.5, y: 1.5}
+        - {x: -32.5, y: 1.5}
+        - {x: -34.5, y: 1.5}
+        - {x: -38.5, y: -1.5}
+        - {x: -40.5, y: -6.5}
+        - {x: -40.5, y: -22.5}
+        - {x: -36.5, y: -26.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 40.5, y: -29.5}
+        - {x: 40.5, y: -5.5}
+        - {x: 24.5, y: 29.5}
+        - {x: -29.5, y: 29.5}
+        - {x: -40.5, y: 18.5}
+    - name: SNES_MK1_sub1_177
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 175
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_178
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 172
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_179
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 155
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_180
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 151
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_181
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 91
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -5.5}
+        - {x: -23, y: -5.5}
+        - {x: -27, y: -10.5}
+        - {x: -27, y: -27.5}
+        - {x: -9, y: -27.5}
+        - {x: -4, y: -21.5}
+        - {x: -3, y: -18.5}
+      - - {x: -6, y: -26.5}
+        - {x: -6, y: -27.5}
+        - {x: 5, y: -27.5}
+        - {x: 6, y: -23.5}
+        - {x: 1, y: -20.5}
+      - - {x: -1, y: -20.5}
+        - {x: 2, y: -19.5}
+        - {x: 2, y: -16.5}
+        - {x: -1, y: -15.5}
+        - {x: -3, y: -17.5}
+      - - {x: -2, y: 27.5}
+        - {x: -26, y: 20.5}
+        - {x: -26, y: 13.5}
+        - {x: 8, y: 6.5}
+        - {x: 24, y: 6.5}
+        - {x: 27, y: 9.5}
+        - {x: 27, y: 25.5}
+        - {x: 24, y: 27.5}
+    - name: SNES_MK1_sub1_182
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 136
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_183
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 127
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_184
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -21}
+        - {x: 16.5, y: 43}
+        - {x: 12.5, y: 48}
+        - {x: -0.5, y: 48}
+        - {x: -15.5, y: 32}
+        - {x: -17.5, y: 21}
+        - {x: -22.5, y: -13}
+        - {x: -22.5, y: -48}
+        - {x: 22.5, y: -48}
+    - name: SNES_MK1_sub1_185
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 20
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 48}
+        - {x: -20.5, y: 33}
+        - {x: -22.5, y: 2}
+        - {x: -22.5, y: -48}
+        - {x: 22.5, y: -48}
+        - {x: 22.5, y: 40}
+        - {x: 19.5, y: 48}
+    - name: SNES_MK1_sub1_186
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 20
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 45}
+        - {x: -19.5, y: 32}
+        - {x: -18.5, y: 4}
+        - {x: -22.5, y: -19}
+        - {x: -22.5, y: -45}
+        - {x: 22.5, y: -45}
+        - {x: 22.5, y: 45}
+      - - {x: -6.5, y: 40}
+        - {x: -3.5, y: 41}
+        - {x: -3.5, y: 44}
+        - {x: -6.5, y: 45}
+        - {x: -8.5, y: 43}
+    - name: SNES_MK1_sub1_187
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 95
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_188
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 90
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_189
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 70
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_190
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 20
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 34.5}
+        - {x: -20.5, y: 31.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -34.5}
+        - {x: 22.5, y: -34.5}
+        - {x: 22.5, y: 34.5}
+    - name: SNES_MK1_sub1_191
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_192
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 87
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_193
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 83
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_194
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 85
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_195
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 72
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_196
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 77
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_197
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 20
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 12}
+        - {x: 20.5, y: 13}
+        - {x: 23.5, y: 11}
+        - {x: 25.5, y: 11}
+        - {x: 25.5, y: 31}
+        - {x: -21.5, y: 31}
+        - {x: -25.5, y: 11}
+        - {x: -25.5, y: -31}
+        - {x: 25.5, y: -31}
+        - {x: 25.5, y: 4}
+        - {x: 24.5, y: 9}
+        - {x: 21.5, y: 12}
+      - - {x: 23.5, y: 29}
+        - {x: 23.5, y: 31}
+        - {x: 18.5, y: 31}
+        - {x: 20.5, y: 28}
+    - name: SNES_MK1_sub1_198
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 74
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_199
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 20
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -17.5}
+        - {x: -1.5, y: -19.5}
+        - {x: -1.5, y: -26.5}
+        - {x: 1.5, y: -29.5}
+        - {x: 4.5, y: -29.5}
+        - {x: 7.5, y: -26.5}
+        - {x: 7.5, y: -22.5}
+        - {x: 7.5, y: -26.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 24.5, y: -29.5}
+        - {x: 25.5, y: -21.5}
+        - {x: 25.5, y: 13.5}
+        - {x: 14.5, y: 25.5}
+        - {x: 0.5, y: 29.5}
+        - {x: -7.5, y: 29.5}
+        - {x: -23.5, y: 6.5}
+        - {x: -25.5, y: -9.5}
+        - {x: -25.5, y: -29.5}
+        - {x: -15.5, y: -29.5}
+        - {x: -4.5, y: -24.5}
+        - {x: -1.5, y: -20.5}
+        - {x: -1.5, y: -17.5}
+      - - {x: 22.5, y: -6.5}
+        - {x: 24.5, y: -8.5}
+        - {x: 25.5, y: -8.5}
+        - {x: 25.5, y: 0.5}
+        - {x: 22.5, y: -0.5}
+      - - {x: 21.5, y: 9.5}
+        - {x: 24.5, y: 10.5}
+        - {x: 24.5, y: 13.5}
+        - {x: 21.5, y: 14.5}
+        - {x: 19.5, y: 12.5}
+      - - {x: 7.5, y: 27.5}
+        - {x: 7.5, y: 29.5}
+        - {x: 2.5, y: 29.5}
+        - {x: 4.5, y: 26.5}
+    - name: SNES_MK1_sub1_200
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 66
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_201
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 64
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_202
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 21
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 9, y: -20.5}
+        - {x: 9, y: -16.5}
+        - {x: 9, y: -20.5}
+        - {x: 11, y: -23.5}
+        - {x: 23, y: -23.5}
+        - {x: 23, y: 8.5}
+        - {x: 9, y: 23.5}
+        - {x: -6, y: 23.5}
+        - {x: -21, y: 17.5}
+        - {x: -24, y: -10.5}
+        - {x: -24, y: -23.5}
+        - {x: -9, y: -23.5}
+        - {x: -9, y: -20.5}
+        - {x: -11, y: -18.5}
+        - {x: -8, y: -20.5}
+      - - {x: 20, y: -11.5}
+        - {x: 20, y: -12.5}
+        - {x: 22, y: -14.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: -8.5}
+        - {x: 23, y: -8.5}
+    - name: SNES_MK1_sub1_203
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 57
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_204
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 48
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_205
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 51
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_206
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 20
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 3.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 6.5}
+        - {x: 20.5, y: 14.5}
+        - {x: 14.5, y: 18.5}
+        - {x: -10.5, y: 18.5}
+        - {x: -19.5, y: 14.5}
+    - name: SNES_MK1_sub1_207
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 20
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 18}
+        - {x: -17.5, y: 18}
+        - {x: -22.5, y: 6}
+        - {x: -22.5, y: -18}
+        - {x: 15.5, y: -18}
+        - {x: 22.5, y: -17}
+        - {x: 22.5, y: 10}
+        - {x: 21.5, y: 16}
+    - name: SNES_MK1_sub1_208
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 20
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -22.5, y: 3.5}
+        - {x: -22.5, y: -17.5}
+        - {x: 15.5, y: -17.5}
+        - {x: 22.5, y: -15.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 19.5, y: 17.5}
+    - name: SNES_MK1_sub1_209
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 43
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_210
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 35
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_211
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 20
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_212
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 30
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_213
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 24
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_214
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 25
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_215
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SNES_MK1_sub1_216
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
