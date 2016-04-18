@@ -20,7 +20,12 @@ public class PlayerController : MonoBehaviour {
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
 
-        if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight)) Flip();
+        if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight))
+        {
+            facingRight = !facingRight;
+            _animator.SetTrigger("startFlipping");
+            return;
+        }
 
         if (moveHorizontal == 0) _animator.SetTrigger("startWaiting");
         else _animator.SetTrigger("startWalking");
@@ -61,9 +66,8 @@ public class PlayerController : MonoBehaviour {
 
     void Flip()
     {
-        facingRight = !facingRight;
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
+//        Vector3 theScale = transform.localScale;
+//        theScale.x *= -1;
+//        transform.localScale = theScale;
     }
 }
