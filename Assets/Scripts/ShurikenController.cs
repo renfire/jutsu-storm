@@ -15,10 +15,12 @@ public class ShurikenController : MonoBehaviour {
 	void Update () {
         if (Input.GetButtonDown("Fire1"))
         {
+            PlayerController myParent = transform.parent.GetComponent<PlayerController>();
+            Vector2 movement;
+            if (myParent.facingRight) movement = new Vector2(1f, 0.0f);
+            else movement = new Vector2(-1f, 0.0f);
             GameObject clone = Instantiate(shuriken, transform.position, transform.rotation) as GameObject;
             Rigidbody2D rb = clone.GetComponent<Rigidbody2D>();
-
-            Vector2 movement = new Vector2(1f, 0.0f);
 
             rb.velocity = (movement);
             rb.angularVelocity   = 720f;

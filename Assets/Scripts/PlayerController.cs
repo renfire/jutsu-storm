@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D rb;
-    bool facingRight = true;
+    public bool facingRight = true;
     public Camera _camera;
     private Animator _animator;
 
@@ -35,21 +35,27 @@ public class PlayerController : MonoBehaviour {
         _camera.transform.position = cameraPositon;
     }
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        _charactersInRange++;
-        if (_charactersInRange > 0)
+        if (other.name != "Fuuma_Shuriken 1(Clone)")
         {
-            _camera.GetComponent<AutoZoom>().zoomIn = true;
-        }           
+            _charactersInRange++;
+            if (_charactersInRange > 0)
+            {
+                _camera.GetComponent<AutoZoom>().zoomIn = true;
+            }
+        }
     }
 
-    void OnTriggerExit2D()
+    void OnTriggerExit2D(Collider2D other)
     {
-        _charactersInRange--;
-        if (_charactersInRange <= 0)
+        if (other.name != "Fuuma_Shuriken 1(Clone)")
         {
-            _camera.GetComponent<AutoZoom>().zoomIn = false;
+            _charactersInRange--;
+            if (_charactersInRange <= 0)
+            {
+                _camera.GetComponent<AutoZoom>().zoomIn = false;
+            }
         }
     }
 
