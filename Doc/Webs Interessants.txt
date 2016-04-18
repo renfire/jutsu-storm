@@ -1,0 +1,3 @@
+Structure and Tips for project : http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/
+Random-Map-Generator : https://www.youtube.com/watch?v=bvvaqAbpPjc
+Animator-Controller : http://unity3d.com/es/learn/tutorials/projects/2d-roguelike/player-animator?playlist=17150
