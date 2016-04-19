@@ -64,10 +64,11 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    void Flip()
+    public void Flip()
     {
-//        Vector3 theScale = transform.localScale;
-//        theScale.x *= -1;
-//        transform.localScale = theScale;
+        _animator.ResetTrigger("startFlipping");
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }

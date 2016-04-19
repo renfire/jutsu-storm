@@ -4,9 +4,9 @@ using System.Collections;
 public class EndFlipping : StateMachineBehaviour {
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-
-    }
+	//override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+    //
+    //}
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
@@ -18,10 +18,8 @@ public class EndFlipping : StateMachineBehaviour {
 
         if (stateInfo.IsName("Ninja Flip"))
         {
-            animator.ResetTrigger("startFlipping");
-            Vector3 theScale = animator.gameObject.transform.localScale;
-            theScale.x *= -1;
-            animator.gameObject.transform.localScale = theScale;
+            PlayerController playerController = animator.gameObject.GetComponent(typeof(PlayerController)) as PlayerController;
+            playerController.Flip();
         }
     }
 
