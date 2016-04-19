@@ -20,6 +20,7 @@ public class NinjaController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        int a;
     }
 
     public void Move(float moveHorizontal)
