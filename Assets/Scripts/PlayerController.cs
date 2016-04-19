@@ -1,53 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : NinjaController {
 
-    private Rigidbody2D rb;
-    public bool facingRight = true;
-    public Camera _camera;
-    private Animator _animator;
+    public Camera playerCamera;
 
-    private int _charactersInRange = 0;
-
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
-    }
+    private int charactersInRange = 0;
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        Move(Input.GetAxis("Horizontal"));
 
-        if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight))
-        {
-            facingRight = !facingRight;
-            _animator.SetTrigger("startFlipping");
-            return;
-        }
-
-        if (moveHorizontal == 0) _animator.SetTrigger("startWaiting");
-        else _animator.SetTrigger("startWalking");
-
-        Vector2 movement = new Vector2(moveHorizontal, 0.0f);
-
-        rb.velocity = (movement);
-
-        Vector3 characterPosition = transform.position;
-        Vector3 cameraPositon = new Vector3(characterPosition.x, _camera.transform.position.y,  _camera.transform.position.z);
-
-        _camera.transform.position = cameraPositon;
+        Vector3 cameraPositon = new Vector3(transform.position.x, playerCamera.transform.position.y, playerCamera.transform.position.z);
+        playerCamera.transform.position = cameraPositon;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name != "Fuuma_Shuriken 1(Clone)")
         {
-            _charactersInRange++;
-            if (_charactersInRange > 0)
+            charactersInRange++;
+            if (charactersInRange > 0)
             {
-                _camera.GetComponent<AutoZoom>().zoomIn = true;
+                playerCamera.GetComponent<AutoZoom>().zoomIn = true;
             }
         }
     }
@@ -56,19 +31,11 @@ public class PlayerController : MonoBehaviour {
     {
         if (other.name != "Fuuma_Shuriken 1(Clone)")
         {
-            _charactersInRange--;
-            if (_charactersInRange <= 0)
+            charactersInRange--;
+            if (charactersInRange <= 0)
             {
-                _camera.GetComponent<AutoZoom>().zoomIn = false;
+                playerCamera.GetComponent<AutoZoom>().zoomIn = false;
             }
         }
-    }
-
-    public void Flip()
-    {
-        _animator.ResetTrigger("startFlipping");
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
     }
 }

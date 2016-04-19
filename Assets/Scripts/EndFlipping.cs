@@ -18,8 +18,8 @@ public class EndFlipping : StateMachineBehaviour {
 
         if (stateInfo.IsName("Ninja Flip"))
         {
-            PlayerController playerController = animator.gameObject.GetComponent(typeof(PlayerController)) as PlayerController;
-            playerController.Flip();
+            NinjaController controller = animator.gameObject.GetComponent(typeof(NinjaController)) as NinjaController;
+            controller.EndFlip();
         }
     }
 
