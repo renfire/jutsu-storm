@@ -5,18 +5,22 @@ public class EnemyController : NinjaController {
 
     public GameObject[] enemyType;
 
+    void Start()
+    {
+        Move(0.5f);
+    }
+
     void FixedUpdate()
     {
         int direction = facingRight ? 1 : -1;
-        Move(0.5f * direction);
+        if (currentNinjaState == NinjaStates.WALKING) Move(0.5f * direction);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        print(other.name);
         if (other.name == "Ninja")
         {
-            if (other.transform.position.x < transform.position.x && facingRight)
+            if (other.transform.position.x < transform.position.x && facingRight && currentNinjaState != NinjaStates.FLIPPING)
             {
                 StartFlip();
             }
@@ -28,10 +32,10 @@ public class EnemyController : NinjaController {
 
     void OnTriggerExit2D(Collider2D other)
     {
-        print(other.name);
         if (other.name == "Ninja")
         {
-            StartFlip();
+            if (!facingRight) StartFlip();
+            else StartWait();
         }
     }
 }

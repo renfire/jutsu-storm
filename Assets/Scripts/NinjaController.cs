@@ -12,10 +12,6 @@ public class NinjaController : MonoBehaviour
 
     protected NinjaStates currentNinjaState = NinjaStates.IDLE;
 
-    protected float movementSpeed = 1.0f;
-
-    private int _charactersInRange = 0;
-
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,25 +34,30 @@ public class NinjaController : MonoBehaviour
         }
     }
 
+    void LateUpdate()
+    {
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+        if (state.IsName("Ninja Flip")) currentNinjaState = NinjaStates.FLIPPING;
+        else if (state.IsName("Ninja Idle")) currentNinjaState = NinjaStates.IDLE;
+        else if (state.IsName("Ninja Walk")) currentNinjaState = NinjaStates.WALKING;
+    }
+
     public void Hit(float damage)
     {
     }
 
     public void StartWait()
     {
-        currentNinjaState = NinjaStates.IDLE;
         animator.SetTrigger("startWaiting");
     }
 
     public void StartWalk()
     {
-        currentNinjaState = NinjaStates.WALKING;
         animator.SetTrigger("startWalking");
     }
 
     public void StartFlip()
     {
-        currentNinjaState = NinjaStates.FLIPPING;
         facingRight = !facingRight;
         animator.SetTrigger("startFlipping");
     }
@@ -67,7 +68,5 @@ public class NinjaController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-
-        currentNinjaState = NinjaStates.IDLE;
     }
 }
