@@ -6,9 +6,9 @@ public class NinjaController : MonoBehaviour
 
     private Rigidbody2D rb;
     public bool facingRight = true;
-    private Animator animator;
+    protected Animator animator;
 
-    protected enum NinjaStates { IDLE, WALKING, FLIPPING };
+    protected enum NinjaStates { IDLE, WALKING, FLIPPING, HURT, PUNCH };
 
     protected NinjaStates currentNinjaState = NinjaStates.IDLE;
 
@@ -24,21 +24,22 @@ public class NinjaController : MonoBehaviour
 
     public void Move(float moveHorizontal)
     {
-        switch(currentNinjaState)
+        if (currentNinjaState == NinjaStates.IDLE || currentNinjaState == NinjaStates.WALKING)
         {
-            case NinjaStates.IDLE:
-            case NinjaStates.WALKING:
-                if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight)) StartFlip();
-                else if (moveHorizontal == 0) StartWait();
-                else StartWalk();
-                break;
-            case NinjaStates.FLIPPING:
-            default:
-                break;
+            if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight)) StartFlip();
+            else if (moveHorizontal == 0) StartWait();
+            else StartWalk();
         }
 
-        Vector2 movement = new Vector2(moveHorizontal, 0.0f);
-        rb.velocity = (movement);
+        if (currentNinjaState == NinjaStates.WALKING)
+        {
+            Vector2 movement = new Vector2(moveHorizontal, 0.0f);
+            rb.velocity = (movement);
+        }
+    }
+
+    public void Hit(float damage)
+    {
     }
 
     public void StartWait()

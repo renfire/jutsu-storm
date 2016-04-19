@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38183e30ed2072d4094d06faa7e806bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: []
   facingRight: 1
+  enemyType: []
 --- !u!1 &131731668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingRight: 1
-  _camera: {fileID: 561956258}
+  playerCamera: {fileID: 561956258}
 --- !u!61 &1687871721
 BoxCollider2D:
   m_ObjectHideFlags: 0
