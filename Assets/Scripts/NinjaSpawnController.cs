@@ -13,11 +13,10 @@ public class NinjaSpawnController : MonoBehaviour {
     void Start () {
         nextTimeSpawn(2);
     }
-    void Update() {
+    void FixedUpdate() {
 
         if (spawn && nextSpawn<=Time.time) {
             spawn = false;
-            print(numberSpawns);
             numberSpawns--;
             float y = -0.25F;
             Vector3 newposition = new Vector3(transform.position.x, y, transform.position.z);
