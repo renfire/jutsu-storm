@@ -7,8 +7,9 @@ public class NinjaController : MonoBehaviour
     private Rigidbody2D rb;
     public bool facingRight = true;
     protected Animator animator;
+    public int hitPoints = 3;
 
-    protected enum NinjaStates { IDLE, WALKING, FLIPPING, HURT, PUNCH };
+    protected enum NinjaStates { IDLE, WALKING, FLIPPING, HURT, PUNCH, DEAD };
 
     protected NinjaStates currentNinjaState = NinjaStates.IDLE;
 
@@ -20,7 +21,6 @@ public class NinjaController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        int a;
     }
 
     public void Move(float moveHorizontal)
@@ -71,4 +71,18 @@ public class NinjaController : MonoBehaviour
 
         currentNinjaState = NinjaStates.IDLE;
     }
+
+    public virtual void StartHurt()
+    {
+        print("StartHurtEnemy");
+        hitPoints--;
+        if (hitPoints <= 0) {
+            animator.SetTrigger("startDie");
+            Destroy(this, 3);
+        }
+        currentNinjaState = NinjaStates.HURT;
+        animator.SetTrigger("startHurt");
+        
+    }
+
 }

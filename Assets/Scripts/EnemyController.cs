@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyController : NinjaController {
 
     public GameObject[] enemyType;
+    public GameObject myCreator;
 
     void FixedUpdate()
     {
@@ -22,7 +23,7 @@ public class EnemyController : NinjaController {
             }
         }
         else if (other.name == "Fuuma_Shuriken 1(Clone)") {
-            animator.SetTrigger("startDie");
+            StartHurt();
         }
     }
 
@@ -34,4 +35,22 @@ public class EnemyController : NinjaController {
             StartFlip();
         }
     }
+
+    public override void StartHurt()
+    {
+        hitPoints--;
+        if (hitPoints <= 0)
+        {
+            animator.SetTrigger("startDie");
+            NinjaSpawnController SpawnController = myCreator.GetComponent<NinjaSpawnController>();
+            SpawnController.killEnemy();
+        }
+        if (currentNinjaState != NinjaStates.DEAD)
+        {
+            currentNinjaState = NinjaStates.HURT;
+            animator.SetTrigger("startHurt");
+        }
+
+    }
+
 }
