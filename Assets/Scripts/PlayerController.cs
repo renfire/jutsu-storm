@@ -9,7 +9,14 @@ public class PlayerController : NinjaController {
 
     void FixedUpdate()
     {
-        Move(Input.GetAxis("Horizontal"));
+
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        Move(moveHorizontal);
+
+        float moveVertical = Input.GetAxis("Vertical");
+        if (moveVertical > 0) StartJump();
+        if (moveVertical < 0) StartCrouch();
+        if (moveVertical == 0 && moveHorizontal == 0) StartWait();
 
         Vector3 cameraPositon = new Vector3(transform.position.x, playerCamera.transform.position.y, playerCamera.transform.position.z);
         playerCamera.transform.position = cameraPositon;

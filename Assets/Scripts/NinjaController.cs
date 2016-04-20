@@ -35,24 +35,47 @@ public class NinjaController : MonoBehaviour
         }
     }
 
+    public void StartCrouch()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle"))
+        {
+            animator.SetTrigger("startCrouch");
+        }
+    }
+
+    public void StartJump()
+    {
+
+    }
+
     public void Hit(float damage)
     {
     }
 
     public void StartWait()
     {
-        animator.SetTrigger("startWaiting");
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle"))
+        {
+            animator.ResetTrigger("startCrouch");
+            animator.SetTrigger("startWaiting");
+        }        
     }
 
     public void StartWalk()
     {
-        animator.SetTrigger("startWalking");
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk"))
+        {
+            animator.SetTrigger("startWalking");
+        }
     }
 
     public void StartFlip()
     {
-        facingRight = !facingRight;
-        animator.SetTrigger("startFlipping");
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Flip"))
+        {
+            facingRight = !facingRight;
+            animator.SetTrigger("startFlipping");
+        }
     }
 
     public void EndFlip()
@@ -67,10 +90,21 @@ public class NinjaController : MonoBehaviour
     {
         hitPoints--;
         if (hitPoints <= 0) {
-            animator.SetTrigger("startDie");
-            Destroy(this, 3);
+            StartDie();
+        } else
+        {
+            animator.SetTrigger("startHurt");
         }
-        animator.SetTrigger("startHurt");
+        
+    }
+
+    public void StartDie()
+    {
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Die"))
+        {
+            animator.ResetTrigger("startHurt");
+            animator.SetTrigger("startDie");
+        }
     }
 
 }

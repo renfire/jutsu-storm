@@ -38,18 +38,12 @@ public class EnemyController : NinjaController {
 
     public override void StartHurt()
     {
-        hitPoints--;
+        base.StartHurt();
         if (hitPoints <= 0)
         {
-            animator.SetTrigger("startDie");
             NinjaSpawnController SpawnController = myCreator.GetComponent<NinjaSpawnController>();
             SpawnController.killEnemy();
         }
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Die"))
-        {
-            animator.SetTrigger("startHurt");
-        }
-
     }
 
 }
