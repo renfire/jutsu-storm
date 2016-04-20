@@ -45,9 +45,8 @@ public class EnemyController : NinjaController {
             NinjaSpawnController SpawnController = myCreator.GetComponent<NinjaSpawnController>();
             SpawnController.killEnemy();
         }
-        if (currentNinjaState != NinjaStates.DEAD)
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Die"))
         {
-            currentNinjaState = NinjaStates.HURT;
             animator.SetTrigger("startHurt");
         }
 

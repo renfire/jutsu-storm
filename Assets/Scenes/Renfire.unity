@@ -876,6 +876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingRight: 1
+  hitPoints: 3
   playerCamera: {fileID: 561956258}
 --- !u!61 &1687871721
 BoxCollider2D:

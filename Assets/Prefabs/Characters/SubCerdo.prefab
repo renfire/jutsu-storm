@@ -109,6 +109,7 @@ MonoBehaviour:
   facingRight: 1
   hitPoints: 3
   enemyType: []
+  myCreator: {fileID: 0}
 --- !u!212 &21298328
 SpriteRenderer:
   m_ObjectHideFlags: 1

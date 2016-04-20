@@ -9,11 +9,13 @@ public class NinjaSpawnController : MonoBehaviour {
 
     private float nextSpawn;
     private bool spawn = true;
+
     // Use this for initialization
     void Start () {
         nextTimeSpawn(2);
     }
-    void Update() {
+
+    void FixedUpdate() {
 
         if (spawn && nextSpawn<=Time.time) {
             spawn = false;

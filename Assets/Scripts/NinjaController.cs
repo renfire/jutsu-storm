@@ -9,10 +9,6 @@ public class NinjaController : MonoBehaviour
     protected Animator animator;
     public int hitPoints = 3;
 
-    protected enum NinjaStates { IDLE, WALKING, FLIPPING, HURT, PUNCH, DEAD };
-
-    protected NinjaStates currentNinjaState = NinjaStates.IDLE;
-
     protected float movementSpeed = 1.0f;
 
     private int _charactersInRange = 0;
@@ -25,14 +21,14 @@ public class NinjaController : MonoBehaviour
 
     public void Move(float moveHorizontal)
     {
-        if (currentNinjaState == NinjaStates.IDLE || currentNinjaState == NinjaStates.WALKING)
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle") || animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk"))
         {
             if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight)) StartFlip();
             else if (moveHorizontal == 0) StartWait();
             else StartWalk();
         }
 
-        if (currentNinjaState == NinjaStates.WALKING)
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk"))
         {
             Vector2 movement = new Vector2(moveHorizontal, 0.0f);
             rb.velocity = (movement);
@@ -45,19 +41,16 @@ public class NinjaController : MonoBehaviour
 
     public void StartWait()
     {
-        currentNinjaState = NinjaStates.IDLE;
         animator.SetTrigger("startWaiting");
     }
 
     public void StartWalk()
     {
-        currentNinjaState = NinjaStates.WALKING;
         animator.SetTrigger("startWalking");
     }
 
     public void StartFlip()
     {
-        currentNinjaState = NinjaStates.FLIPPING;
         facingRight = !facingRight;
         animator.SetTrigger("startFlipping");
     }
@@ -68,21 +61,16 @@ public class NinjaController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-
-        currentNinjaState = NinjaStates.IDLE;
     }
 
     public virtual void StartHurt()
     {
-        print("StartHurtEnemy");
         hitPoints--;
         if (hitPoints <= 0) {
             animator.SetTrigger("startDie");
             Destroy(this, 3);
         }
-        currentNinjaState = NinjaStates.HURT;
         animator.SetTrigger("startHurt");
-        
     }
 
 }

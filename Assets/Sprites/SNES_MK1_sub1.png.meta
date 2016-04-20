@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0096486a206c5ca41a90b24f96e5f6e6
-timeCreated: 1460876079
+timeCreated: 1461175798
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -3017,111 +3017,117 @@ TextureImporter:
     - name: SNES_MK1_sub1_142
       rect:
         serializedVersion: 2
-        x: 20
+        x: 0
         y: 332
-        width: 69
+        width: 89
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 25.5, y: 47.5}
-        - {x: -34.5, y: 47.5}
-        - {x: -34.5, y: -6.5}
-        - {x: -21.5, y: -47.5}
-        - {x: 9.5, y: -47.5}
-        - {x: 10.5, y: -42.5}
-        - {x: 34.5, y: -39.5}
-        - {x: 34.5, y: 20.5}
+      - - {x: 44.5, y: 5.5}
+        - {x: 27.5, y: 47.5}
+        - {x: -26.5, y: 47.5}
+        - {x: -26.5, y: -1.5}
+        - {x: -10.5, y: -47.5}
+        - {x: 19.5, y: -47.5}
+        - {x: 20.5, y: -42.5}
+        - {x: 43.5, y: -22.5}
+        - {x: 44.5, y: -21.5}
     - name: SNES_MK1_sub1_143
       rect:
         serializedVersion: 2
-        x: 99
+        x: 89
         y: 332
-        width: 71
-        height: 74
+        width: 89
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -35.5, y: 37}
-        - {x: -35.5, y: -11}
-        - {x: 1.5, y: -37}
-        - {x: 32.5, y: -37}
-        - {x: 35.5, y: -19}
-        - {x: 35.5, y: 25}
-        - {x: -1.5, y: 37}
+      - - {x: -36.5, y: 28.5}
+        - {x: -36.5, y: -23.5}
+        - {x: -11.5, y: -47.5}
+        - {x: 33.5, y: -47.5}
+        - {x: 38.5, y: -26.5}
+        - {x: 38.5, y: 12.5}
+        - {x: -4.5, y: 28.5}
     - name: SNES_MK1_sub1_144
       rect:
         serializedVersion: 2
         x: 181
         y: 332
         width: 51
-        height: 86
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 21.5, y: 43}
-        - {x: 12.5, y: 43}
-        - {x: 11.5, y: 42}
-        - {x: 11.5, y: 34}
-        - {x: -24.5, y: 25}
-        - {x: -25.5, y: 19}
-        - {x: -25.5, y: -30}
-        - {x: -20.5, y: -39}
-        - {x: -9.5, y: -43}
-        - {x: 6.5, y: -43}
-        - {x: 21.5, y: -13}
-        - {x: 25.5, y: 8}
-        - {x: 25.5, y: 41}
+      - - {x: -12.5, y: 40.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -25.5, y: -40.5}
+        - {x: -15.5, y: -47.5}
+        - {x: 17.5, y: -47.5}
+        - {x: 25.5, y: -28.5}
+        - {x: 25.5, y: 40.5}
     - name: SNES_MK1_sub1_145
       rect:
         serializedVersion: 2
         x: 244
         y: 332
         width: 42
-        height: 75
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 37.5}
+      - - {x: -10, y: 29.5}
         - {x: -21, y: 8.5}
-        - {x: -21, y: -27.5}
-        - {x: -14, y: -37.5}
-        - {x: 21, y: -37.5}
-        - {x: 21, y: 37.5}
+        - {x: -21, y: -46.5}
+        - {x: -18, y: -47.5}
+        - {x: 19, y: -47.5}
+        - {x: 21, y: -41.5}
+        - {x: 21, y: 28.5}
+        - {x: 17, y: 29.5}
     - name: SNES_MK1_sub1_146
       rect:
         serializedVersion: 2
         x: 297
         y: 332
         width: 67
-        height: 62
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -33.5, y: 5}
-        - {x: -33.5, y: -26}
-        - {x: -25.5, y: -31}
-        - {x: 11.5, y: -31}
-        - {x: 33.5, y: 1}
-        - {x: 33.5, y: 31}
-        - {x: 23.5, y: 31}
-        - {x: 19.5, y: 30}
+      - - {x: 29.5, y: 16.5}
+        - {x: 22.5, y: 15.5}
+        - {x: -33.5, y: -11.5}
+        - {x: -33.5, y: -42.5}
+        - {x: -25.5, y: -47.5}
+        - {x: 11.5, y: -47.5}
+        - {x: 33.5, y: -15.5}
+        - {x: 33.5, y: 15.5}
+        - {x: 32.5, y: 16.5}
     - name: SNES_MK1_sub1_147
       rect:
         serializedVersion: 2
         x: 376
         y: 332
         width: 89
-        height: 27
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 0.5, y: -18.5}
+        - {x: -44.5, y: -18.5}
+        - {x: -44.5, y: -39.5}
+        - {x: -29.5, y: -47.5}
+        - {x: 41.5, y: -47.5}
+        - {x: 44.5, y: -41.5}
+        - {x: 44.5, y: -24.5}
+        - {x: 41.5, y: -20.5}
     - name: SNES_MK1_sub1_148
       rect:
         serializedVersion: 2
