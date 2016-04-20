@@ -4,7 +4,7 @@ using System.Collections;
 public class NinjaSpawnController : MonoBehaviour {
 
     public GameObject SubCerdo;
-    public int numberSpawns = 5;
+    public int numberSpawns = 10;
     public GameObject[] SubCerdoCreated;
 
     private float nextSpawn;
@@ -17,8 +17,11 @@ public class NinjaSpawnController : MonoBehaviour {
 
         if (spawn && nextSpawn<=Time.time) {
             spawn = false;
+            print(numberSpawns);
             numberSpawns--;
-            GameObject clone = Instantiate(SubCerdo, transform.position, transform.rotation) as GameObject;
+            float y = -0.25F;
+            Vector3 newposition = new Vector3(transform.position.x, y, transform.position.z);
+            GameObject clone = Instantiate(SubCerdo, newposition, transform.rotation) as GameObject;
             clone.GetComponent<EnemyController>().myCreator = gameObject;
             SubCerdoCreated = new GameObject[1];
             SubCerdoCreated[0] = clone;
