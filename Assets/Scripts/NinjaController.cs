@@ -21,6 +21,8 @@ public class NinjaController : MonoBehaviour
 
     public void Move(float moveHorizontal)
     {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Hurt")) return;
+
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle") || animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk"))
         {
             if ((moveHorizontal > 0 && !facingRight) || (moveHorizontal < 0 && facingRight)) StartFlip();
@@ -89,6 +91,9 @@ public class NinjaController : MonoBehaviour
     public virtual void StartHurt()
     {
         hitPoints--;
+        animator.ResetTrigger("startWalking");
+        animator.ResetTrigger("startFlipping");
+        animator.ResetTrigger("startWaiting");
         if (hitPoints <= 0) {
             StartDie();
         } else
