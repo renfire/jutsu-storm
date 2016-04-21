@@ -47,7 +47,13 @@ public class NinjaController : MonoBehaviour
 
     public void StartJump()
     {
-
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Jump"))
+        {
+            animator.SetTrigger("startJump");
+            rb.AddForce(new Vector2(0, 3f), ForceMode2D.Impulse);
+        } else {
+            animator.ResetTrigger("startJump");
+        }
     }
 
     public void Hit(float damage)
