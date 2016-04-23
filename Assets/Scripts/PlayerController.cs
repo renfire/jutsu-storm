@@ -9,14 +9,19 @@ public class PlayerController : NinjaController {
 
     void FixedUpdate()
     {
+        CheckTouchingFloor();
 
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        Move(moveHorizontal);
+        if (Input.GetKeyDown(KeyCode.Q)) StartJump();
+        if (Input.GetKeyDown(KeyCode.W)) { }
+        if (Input.GetKeyDown(KeyCode.E)) { }
+        if (Input.GetKeyDown(KeyCode.R)) { }
 
-        float moveVertical = Input.GetAxis("Vertical");
-        if (moveVertical > 0) StartJump();
-        if (moveVertical < 0) StartCrouch();
-        if (moveVertical == 0 && moveHorizontal == 0) StartWait();
+        if (Input.GetKey(KeyCode.RightArrow)) Move(1.0f);
+        if (Input.GetKey(KeyCode.LeftArrow)) Move(-1.0f);
+        if (Input.GetKeyDown(KeyCode.UpArrow)) StartJump();
+        if (Input.GetKey(KeyCode.DownArrow)) StartCrouch();
+
+        if (!Input.anyKey) StartWait();
 
         Vector3 cameraPositon = new Vector3(transform.position.x, playerCamera.transform.position.y, playerCamera.transform.position.z);
         playerCamera.transform.position = cameraPositon;

@@ -3,13 +3,16 @@ using System.Collections;
 
 public class NinjaController : MonoBehaviour
 {
-
-    private Rigidbody2D rb;
+    // DIRECTION
     public bool facingRight = true;
-    protected Animator animator;
+
+    // LIFE AND DAMAGE
     public int hitPoints = 3;
 
-    protected float movementSpeed = 1.0f;
+    // PHYSICS
+    private Rigidbody2D rb;
+    protected Animator animator;
+    public LayerMask whatIsGround;
 
     private int _charactersInRange = 0;
 
@@ -17,6 +20,18 @@ public class NinjaController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        animator.SetBool("isOnFloor", true);
+    }
+
+    public void Update()
+    {
+        CheckTouchingFloor();
+    }
+    
+    protected void CheckTouchingFloor()
+    {
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, new Vector2(transform.position.x, transform.position.y - 1f), whatIsGround);
+        animator.SetBool("isOnFloor", (hit.distance < 0.27f));
     }
 
     public void Move(float moveHorizontal)
@@ -30,11 +45,7 @@ public class NinjaController : MonoBehaviour
             else StartWalk();
         }
 
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk"))
-        {
-            Vector2 movement = new Vector2(moveHorizontal, 0.0f);
-            rb.velocity = (movement);
-        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk")) rb.velocity = new Vector2(moveHorizontal, 0.0f);
     }
 
     public void StartCrouch()
@@ -51,8 +62,6 @@ public class NinjaController : MonoBehaviour
         {
             animator.SetTrigger("startJump");
             rb.AddForce(new Vector2(0, 3f), ForceMode2D.Impulse);
-        } else {
-            animator.ResetTrigger("startJump");
         }
     }
 
@@ -62,7 +71,7 @@ public class NinjaController : MonoBehaviour
 
     public void StartWait()
     {
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle"))
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle") && (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Jump") || animator.GetBool("isOnFloor")))
         {
             animator.ResetTrigger("startCrouch");
             animator.SetTrigger("startWaiting");
@@ -71,7 +80,7 @@ public class NinjaController : MonoBehaviour
 
     public void StartWalk()
     {
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk"))
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Jump"))
         {
             animator.SetTrigger("startWalking");
         }
@@ -106,7 +115,6 @@ public class NinjaController : MonoBehaviour
         {
             animator.SetTrigger("startHurt");
         }
-        
     }
 
     public void StartDie()
@@ -117,5 +125,4 @@ public class NinjaController : MonoBehaviour
             animator.SetTrigger("startDie");
         }
     }
-
 }
