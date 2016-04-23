@@ -12,7 +12,7 @@ public class PlayerController : NinjaController {
         CheckTouchingFloor();
 
         if (Input.GetKeyDown(KeyCode.Q)) StartJump();
-        if (Input.GetKeyDown(KeyCode.W)) { }
+        if (Input.GetKey(KeyCode.W)) StartBlock();
         if (Input.GetKeyDown(KeyCode.E)) { }
         if (Input.GetKeyDown(KeyCode.R)) { }
 

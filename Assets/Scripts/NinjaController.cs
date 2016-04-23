@@ -45,7 +45,7 @@ public class NinjaController : MonoBehaviour
             else StartWalk();
         }
 
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk")) rb.velocity = new Vector2(moveHorizontal, 0.0f);
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk")) rb.velocity = new Vector2(moveHorizontal, rb.velocity.y);
     }
 
     public void StartCrouch()
@@ -69,10 +69,21 @@ public class NinjaController : MonoBehaviour
     {
     }
 
+    public void StartBlock()
+    {
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Blocking") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Block") && (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle") || animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk")))
+        {
+            animator.SetTrigger("startBlock");
+            animator.ResetTrigger("startWait");
+            animator.ResetTrigger("startWalk");
+        }
+    }
+
     public void StartWait()
     {
         if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Idle") && (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Jump") || animator.GetBool("isOnFloor")))
         {
+            animator.ResetTrigger("startBlock");
             animator.ResetTrigger("startCrouch");
             animator.SetTrigger("startWaiting");
         }        
