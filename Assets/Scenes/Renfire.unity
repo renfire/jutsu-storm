@@ -258,6 +258,10 @@ Prefab:
       propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11455734, guid: 5f698a7dd819ef14e8af674f7eaa99d9, type: 2}
+      propertyPath: smoke
+      value: 
+      objectReference: {fileID: 100000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f698a7dd819ef14e8af674f7eaa99d9, type: 2}
   m_IsPrefabParent: 0

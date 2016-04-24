@@ -14,16 +14,19 @@ public class NinjaController : MonoBehaviour
     protected Animator animator;
     public LayerMask whatIsGround;
 
+    // FX
+    public GameObject smoke;
+
     private int _charactersInRange = 0;
 
-    void Awake()
+    public virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         animator.SetBool("isOnFloor", true);
     }
 
-    public void Update()
+    public virtual void Update()
     {
         CheckTouchingFloor();
     }
@@ -46,6 +49,13 @@ public class NinjaController : MonoBehaviour
         }
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Ninja Walk")) rb.velocity = new Vector2(moveHorizontal, rb.velocity.y);
+    }
+
+    public void DoBasicAttack()
+    {
+        GameObject smokeClone = Instantiate(smoke, transform.position, transform.rotation) as GameObject;
+        print(smokeClone);
+
     }
 
     public void StartCrouch()

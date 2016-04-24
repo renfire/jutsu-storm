@@ -4,14 +4,21 @@ using System.Collections;
 public class PlayerController : NinjaController {
 
     public Camera playerCamera;
+    protected CircleCollider2D cameraCloseCollider;
+    protected CircleCollider2D cameraFarCollider;
 
     private int charactersInRange = 0;
+
+    public override void Awake()
+    {
+        base.Awake();
+    }
 
     void FixedUpdate()
     {
         CheckTouchingFloor();
 
-        if (Input.GetKeyDown(KeyCode.Q)) StartJump();
+        if (Input.GetKeyDown(KeyCode.Q)) DoBasicAttack();
         if (Input.GetKey(KeyCode.W)) StartBlock();
         if (Input.GetKeyDown(KeyCode.E)) { }
         if (Input.GetKeyDown(KeyCode.R)) { }
